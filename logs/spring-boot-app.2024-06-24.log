@@ -1,0 +1,40 @@
+2024-06-24 15:03:48 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-24 15:03:48 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 65641 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-24 15:03:48 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-24 15:03:48 - No active profile set, falling back to 1 default profile: "default"
+2024-06-24 15:03:48 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-24 15:03:48 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-24 15:03:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-24 15:03:49 - Finished Spring Data repository scanning in 68 ms. Found 4 JPA repository interfaces.
+2024-06-24 15:03:50 - Tomcat initialized with port 8080 (http)
+2024-06-24 15:03:50 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:03:50 - Starting service [Tomcat]
+2024-06-24 15:03:50 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-24 15:03:50 - Initializing Spring embedded WebApplicationContext
+2024-06-24 15:03:50 - Root WebApplicationContext: initialization completed in 1912 ms
+2024-06-24 15:03:50 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-24 15:03:50 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-24 15:03:50 - HHH000026: Second-level cache disabled
+2024-06-24 15:03:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-24 15:03:50 - HikariPool-1 - Starting...
+2024-06-24 15:03:50 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@bf3a4b7
+2024-06-24 15:03:50 - HikariPool-1 - Start completed.
+2024-06-24 15:03:50 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-24 15:03:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-24 15:03:51 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:03:51 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-24 15:03:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-24 15:03:51 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5e89a887, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2fbd5abe, org.springframework.security.web.context.SecurityContextHolderFilter@3435a39e, org.springframework.security.web.header.HeaderWriterFilter@e78558e, org.springframework.web.filter.CorsFilter@7e1279e7, org.springframework.security.web.authentication.logout.LogoutFilter@37c462f2, com.springboot.price.security.JwtAuthenticationFilter@1c48cc4b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5d7814c9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@23e6ae7c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a36a90, org.springframework.security.web.session.SessionManagementFilter@46cb6677, org.springframework.security.web.access.ExceptionTranslationFilter@581c8399, org.springframework.security.web.access.intercept.AuthorizationFilter@4d278c44]
+2024-06-24 15:03:51 - LiveReload server is running on port 35729
+2024-06-24 15:03:51 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-24 15:03:52 - Tomcat started on port 8080 (http) with context path ''
+2024-06-24 15:03:52 - Started SpringbootBlogRestApiApplication in 4.627 seconds (process running for 5.103)
+2024-06-24 15:03:52 - SpringbootBlogRestApiApplication has started.
+2024-06-24 15:05:20 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-24 15:05:20 - Initializing Servlet 'dispatcherServlet'
+2024-06-24 15:05:20 - Completed initialization in 19 ms
+2024-06-24 15:05:20 - Login request received for user: abhishek21
+2024-06-24 15:05:20 - Login successful for user: abhishek21
+2024-06-24 15:08:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-24 15:08:04 - HikariPool-1 - Shutdown initiated...
+2024-06-24 15:08:04 - HikariPool-1 - Shutdown completed.

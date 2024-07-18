@@ -1,0 +1,1058 @@
+2024-06-26 00:00:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:00:25 - HikariPool-1 - Shutdown initiated...
+2024-06-26 00:00:25 - HikariPool-1 - Shutdown completed.
+2024-06-26 00:00:29 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 00:00:29 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 27447 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 00:00:29 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 00:00:29 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 00:00:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 00:00:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 00:00:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 00:00:29 - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-06-26 00:00:29 - Tomcat initialized with port 8080 (http)
+2024-06-26 00:00:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:00:29 - Starting service [Tomcat]
+2024-06-26 00:00:29 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 00:00:29 - Initializing Spring embedded WebApplicationContext
+2024-06-26 00:00:29 - Root WebApplicationContext: initialization completed in 899 ms
+2024-06-26 00:00:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 00:00:30 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 00:00:30 - HHH000026: Second-level cache disabled
+2024-06-26 00:00:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 00:00:30 - HikariPool-1 - Starting...
+2024-06-26 00:00:30 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6e13a823
+2024-06-26 00:00:30 - HikariPool-1 - Start completed.
+2024-06-26 00:00:30 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 00:00:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 00:00:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:00:31 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 00:00:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 00:00:31 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@52f8f15, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71d16aca, org.springframework.security.web.context.SecurityContextHolderFilter@1ebccb0f, org.springframework.security.web.header.HeaderWriterFilter@709cd454, org.springframework.web.filter.CorsFilter@4ce7e812, org.springframework.security.web.authentication.logout.LogoutFilter@5fb3c42f, com.springboot.price.security.JwtAuthenticationFilter@693e48d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@227397d6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b85c01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@365db5fb, org.springframework.security.web.session.SessionManagementFilter@6ba19ebf, org.springframework.security.web.access.ExceptionTranslationFilter@4fc8bc11, org.springframework.security.web.access.intercept.AuthorizationFilter@66325705]
+2024-06-26 00:00:31 - LiveReload server is running on port 35729
+2024-06-26 00:00:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:00:31 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 00:00:31 - Started SpringbootBlogRestApiApplication in 3.164 seconds (process running for 4.508)
+2024-06-26 00:00:31 - SpringbootBlogRestApiApplication has started.
+2024-06-26 00:00:43 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 00:00:43 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 00:00:43 - Completed initialization in 4 ms
+2024-06-26 00:00:43 - Login request received for user: abhishek21
+2024-06-26 00:00:43 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:43 - User authenticated successfully: abhishek21
+2024-06-26 00:00:43 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNDMsImV4cCI6MTcxOTk0NTA0M30._s9pg7sDF3Q12Dy0Lv0HNGqpE9jMEPSLWQZbLrW6R9znIuJGSjjusax81B_qLIXi
+2024-06-26 00:00:43 - Login successful for user: abhishek21
+2024-06-26 00:00:43 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:00:44 - Login request received for user: abhishek21
+2024-06-26 00:00:44 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:44 - User authenticated successfully: abhishek21
+2024-06-26 00:00:44 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNDQsImV4cCI6MTcxOTk0NTA0NH0.i7EQQ0bKhfDnCkJkxEghSZrjjmsxLL_PVc-KPU1geazrs8rIerNjqPoxhHc8tBqv
+2024-06-26 00:00:44 - Login successful for user: abhishek21
+2024-06-26 00:00:44 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:00:52 - Login request received for user: abhishek21
+2024-06-26 00:00:52 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:52 - User authenticated successfully: abhishek21
+2024-06-26 00:00:52 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNTIsImV4cCI6MTcxOTk0NTA1Mn0.fu9bwCFPITmnGPobomRr9HUq2i5M7IGT1JFot45LWVGIlbaTIYXaknkRMTls3K0l
+2024-06-26 00:00:52 - Login successful for user: abhishek21
+2024-06-26 00:00:52 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:00:52 - Login request received for user: abhishek21
+2024-06-26 00:00:52 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:52 - User authenticated successfully: abhishek21
+2024-06-26 00:00:52 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNTIsImV4cCI6MTcxOTk0NTA1Mn0.fu9bwCFPITmnGPobomRr9HUq2i5M7IGT1JFot45LWVGIlbaTIYXaknkRMTls3K0l
+2024-06-26 00:00:52 - Login successful for user: abhishek21
+2024-06-26 00:00:52 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:00:52 - Login request received for user: abhishek21
+2024-06-26 00:00:52 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:53 - User authenticated successfully: abhishek21
+2024-06-26 00:00:53 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNTMsImV4cCI6MTcxOTk0NTA1M30.sb_-6doiKKAWfslHyuxYZ0ZXXhr_hEeyoFXU4zPGseWdzk48UVth4n6WgRa6e2_9
+2024-06-26 00:00:53 - Login successful for user: abhishek21
+2024-06-26 00:00:53 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:00:53 - Login request received for user: abhishek21
+2024-06-26 00:00:53 - Attempting to authenticate user: abhishek21
+2024-06-26 00:00:53 - User authenticated successfully: abhishek21
+2024-06-26 00:00:53 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNTMsImV4cCI6MTcxOTk0NTA1M30.sb_-6doiKKAWfslHyuxYZ0ZXXhr_hEeyoFXU4zPGseWdzk48UVth4n6WgRa6e2_9
+2024-06-26 00:00:53 - Login successful for user: abhishek21
+2024-06-26 00:00:53 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:01:00 - Login request received for user: abhishek21
+2024-06-26 00:01:00 - Attempting to authenticate user: abhishek21
+2024-06-26 00:01:00 - User authenticated successfully: abhishek21
+2024-06-26 00:01:00 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAyNjAsImV4cCI6MTcxOTk0NTA2MH0.JiibOSlLhU8qS6_0IrMGqcro6weWQQNwOx1SKSu9hyiuRGrkOhKqd0n04Qd3470S
+2024-06-26 00:01:00 - Login successful for user: abhishek21
+2024-06-26 00:01:00 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:01:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:01:28 - HikariPool-1 - Shutdown initiated...
+2024-06-26 00:01:28 - HikariPool-1 - Shutdown completed.
+2024-06-26 00:01:31 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 00:01:31 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 27538 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 00:01:31 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 00:01:31 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 00:01:31 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 00:01:31 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 00:01:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 00:01:32 - Finished Spring Data repository scanning in 33 ms. Found 4 JPA repository interfaces.
+2024-06-26 00:01:32 - Tomcat initialized with port 8080 (http)
+2024-06-26 00:01:32 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:01:32 - Starting service [Tomcat]
+2024-06-26 00:01:32 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 00:01:32 - Initializing Spring embedded WebApplicationContext
+2024-06-26 00:01:32 - Root WebApplicationContext: initialization completed in 937 ms
+2024-06-26 00:01:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 00:01:32 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 00:01:32 - HHH000026: Second-level cache disabled
+2024-06-26 00:01:33 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 00:01:33 - HikariPool-1 - Starting...
+2024-06-26 00:01:33 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@500badd3
+2024-06-26 00:01:33 - HikariPool-1 - Start completed.
+2024-06-26 00:01:33 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 00:01:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 00:01:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:01:34 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 00:01:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 00:01:34 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ef748d7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@338f6832, org.springframework.security.web.context.SecurityContextHolderFilter@5301bd1a, org.springframework.security.web.header.HeaderWriterFilter@323d7c84, org.springframework.web.filter.CorsFilter@41e05c91, org.springframework.security.web.authentication.logout.LogoutFilter@127b2b02, com.springboot.price.security.JwtAuthenticationFilter@49cd6e35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5eab67b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@212043e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1eab278a, org.springframework.security.web.session.SessionManagementFilter@4227ff7d, org.springframework.security.web.access.ExceptionTranslationFilter@14bb256c, org.springframework.security.web.access.intercept.AuthorizationFilter@4da002b1]
+2024-06-26 00:01:34 - LiveReload server is running on port 35729
+2024-06-26 00:01:34 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:01:34 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 00:01:34 - Started SpringbootBlogRestApiApplication in 3.505 seconds (process running for 4.094)
+2024-06-26 00:01:34 - SpringbootBlogRestApiApplication has started.
+2024-06-26 00:01:40 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 00:01:40 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 00:01:40 - Completed initialization in 4 ms
+2024-06-26 00:01:40 - Login request received for user: abhishek21
+2024-06-26 00:01:40 - Attempting to authenticate user: abhishek21
+2024-06-26 00:01:40 - User authenticated successfully: abhishek21
+2024-06-26 00:01:40 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDAzMDAsImV4cCI6MTcxOTk0NTEwMH0.2COeAnCCd_nk35JPS-ZHVHAIKW5ZyLYojZAMN_2OeNbIleP3vHG2JsRtfXA9Ezxh
+2024-06-26 00:01:40 - Login successful for user: abhishek21
+2024-06-26 00:06:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:06:35 - HikariPool-1 - Shutdown initiated...
+2024-06-26 00:06:35 - HikariPool-1 - Shutdown completed.
+2024-06-26 00:06:39 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 00:06:39 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 28242 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 00:06:39 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 00:06:39 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 00:06:39 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 00:06:39 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 00:06:40 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 00:06:40 - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-06-26 00:06:40 - Tomcat initialized with port 8080 (http)
+2024-06-26 00:06:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:06:40 - Starting service [Tomcat]
+2024-06-26 00:06:40 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 00:06:40 - Initializing Spring embedded WebApplicationContext
+2024-06-26 00:06:40 - Root WebApplicationContext: initialization completed in 1024 ms
+2024-06-26 00:06:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 00:06:40 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 00:06:40 - HHH000026: Second-level cache disabled
+2024-06-26 00:06:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 00:06:40 - HikariPool-1 - Starting...
+2024-06-26 00:06:41 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3cc27bd
+2024-06-26 00:06:41 - HikariPool-1 - Start completed.
+2024-06-26 00:06:41 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 00:06:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 00:06:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:06:41 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 00:06:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 00:06:42 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@519e3e43, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e8f4647, org.springframework.security.web.context.SecurityContextHolderFilter@5f9f2dc6, org.springframework.security.web.header.HeaderWriterFilter@2096e474, org.springframework.web.filter.CorsFilter@5a1ea9c, org.springframework.security.web.authentication.logout.LogoutFilter@4ba5d4ba, com.springboot.price.security.JwtAuthenticationFilter@3aa36c79, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36121e95, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16d33fa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c070fe1, org.springframework.security.web.session.SessionManagementFilter@271c9409, org.springframework.security.web.access.ExceptionTranslationFilter@6f957e95, org.springframework.security.web.access.intercept.AuthorizationFilter@1cfd43b]
+2024-06-26 00:06:42 - LiveReload server is running on port 35729
+2024-06-26 00:06:42 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:06:42 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 00:06:42 - Started SpringbootBlogRestApiApplication in 3.324 seconds (process running for 3.945)
+2024-06-26 00:06:42 - SpringbootBlogRestApiApplication has started.
+2024-06-26 00:07:07 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 00:07:07 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 00:07:07 - Completed initialization in 3 ms
+2024-06-26 00:07:07 - Login request received for user: abhishek21
+2024-06-26 00:07:07 - Attempting to authenticate user: abhishek21
+2024-06-26 00:07:08 - User authenticated successfully: abhishek21
+2024-06-26 00:07:08 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDA2MjgsImV4cCI6MTcxOTk0NTQyOH0.rR19KcvHlc6mExbJJfN-M9FzVUqLK14NTZ7iEP9YMZckYd44CC-Vmbo-IAnS0zau
+2024-06-26 00:07:08 - Login successful for user: abhishek21
+2024-06-26 00:07:08 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:11 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:18:11 - HikariPool-1 - Shutdown initiated...
+2024-06-26 00:18:11 - HikariPool-1 - Shutdown completed.
+2024-06-26 00:18:15 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 00:18:15 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 28811 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 00:18:15 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 00:18:15 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 00:18:15 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 00:18:15 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 00:18:16 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 00:18:16 - Finished Spring Data repository scanning in 30 ms. Found 4 JPA repository interfaces.
+2024-06-26 00:18:16 - Tomcat initialized with port 8080 (http)
+2024-06-26 00:18:16 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:18:16 - Starting service [Tomcat]
+2024-06-26 00:18:16 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 00:18:16 - Initializing Spring embedded WebApplicationContext
+2024-06-26 00:18:16 - Root WebApplicationContext: initialization completed in 926 ms
+2024-06-26 00:18:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 00:18:16 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 00:18:16 - HHH000026: Second-level cache disabled
+2024-06-26 00:18:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 00:18:16 - HikariPool-1 - Starting...
+2024-06-26 00:18:16 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11c12e45
+2024-06-26 00:18:17 - HikariPool-1 - Start completed.
+2024-06-26 00:18:17 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 00:18:17 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 00:18:17 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:18:17 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 00:18:18 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 00:18:18 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76dbfaf8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@921eba1, org.springframework.security.web.context.SecurityContextHolderFilter@2628f9ac, org.springframework.security.web.header.HeaderWriterFilter@432a7f8e, org.springframework.web.filter.CorsFilter@33ed91d0, org.springframework.security.web.authentication.logout.LogoutFilter@1a20c61d, com.springboot.price.security.JwtAuthenticationFilter@6a45e671, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c41ec20, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7be6cf31, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70a4f3bc, org.springframework.security.web.session.SessionManagementFilter@4dfd7384, org.springframework.security.web.access.ExceptionTranslationFilter@78347ea9, org.springframework.security.web.access.intercept.AuthorizationFilter@55555a18]
+2024-06-26 00:18:18 - LiveReload server is running on port 35729
+2024-06-26 00:18:18 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:18:18 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 00:18:18 - Started SpringbootBlogRestApiApplication in 3.221 seconds (process running for 3.767)
+2024-06-26 00:18:18 - SpringbootBlogRestApiApplication has started.
+2024-06-26 00:18:27 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 00:18:27 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 00:18:27 - Completed initialization in 4 ms
+2024-06-26 00:18:27 - Login request received for user: abhishek21
+2024-06-26 00:18:27 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:27 - User authenticated successfully: abhishek21
+2024-06-26 00:18:27 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDcsImV4cCI6MTcxOTk0NjEwN30.2FeJCcN6YOCwyR5LS1sULxZE8kLCbSJw96Huk2sq7zaetoAFTNiNsfoBSm0D7GC2
+2024-06-26 00:18:27 - Login successful for user: abhishek21
+2024-06-26 00:18:27 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:28 - Login request received for user: abhishek21
+2024-06-26 00:18:28 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:28 - User authenticated successfully: abhishek21
+2024-06-26 00:18:28 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDgsImV4cCI6MTcxOTk0NjEwOH0.UZMTMxzwENp5G5VPdAHOq_wpbCCYAU61scntYExxHid0TZMuZTlgHR2cXjP48TYJ
+2024-06-26 00:18:28 - Login successful for user: abhishek21
+2024-06-26 00:18:28 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:28 - Login request received for user: abhishek21
+2024-06-26 00:18:28 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:28 - User authenticated successfully: abhishek21
+2024-06-26 00:18:28 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDgsImV4cCI6MTcxOTk0NjEwOH0.UZMTMxzwENp5G5VPdAHOq_wpbCCYAU61scntYExxHid0TZMuZTlgHR2cXjP48TYJ
+2024-06-26 00:18:28 - Login successful for user: abhishek21
+2024-06-26 00:18:28 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:28 - Login request received for user: abhishek21
+2024-06-26 00:18:28 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:28 - User authenticated successfully: abhishek21
+2024-06-26 00:18:28 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDgsImV4cCI6MTcxOTk0NjEwOH0.UZMTMxzwENp5G5VPdAHOq_wpbCCYAU61scntYExxHid0TZMuZTlgHR2cXjP48TYJ
+2024-06-26 00:18:28 - Login successful for user: abhishek21
+2024-06-26 00:18:28 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:29 - Login request received for user: abhishek21
+2024-06-26 00:18:29 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:29 - User authenticated successfully: abhishek21
+2024-06-26 00:18:29 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDksImV4cCI6MTcxOTk0NjEwOX0.VvpVjB4p22VCiH-KAXBQDTAiHrjBOFAvSoipMx3YISWjcDg419gFtB16Y6zVsu_P
+2024-06-26 00:18:29 - Login successful for user: abhishek21
+2024-06-26 00:18:29 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:18:29 - Login request received for user: abhishek21
+2024-06-26 00:18:29 - Attempting to authenticate user: abhishek21
+2024-06-26 00:18:29 - User authenticated successfully: abhishek21
+2024-06-26 00:18:29 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDEzMDksImV4cCI6MTcxOTk0NjEwOX0.VvpVjB4p22VCiH-KAXBQDTAiHrjBOFAvSoipMx3YISWjcDg419gFtB16Y6zVsu_P
+2024-06-26 00:18:29 - Login successful for user: abhishek21
+2024-06-26 00:18:29 - Resolved [java.lang.NullPointerException: Cannot invoke "com.springboot.price.service.EmailService.setLoginNotification(String, String)" because "this.emailService" is null]
+2024-06-26 00:20:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:20:24 - HikariPool-1 - Shutdown initiated...
+2024-06-26 00:20:24 - HikariPool-1 - Shutdown completed.
+2024-06-26 00:20:28 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 00:20:28 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 28936 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 00:20:28 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 00:20:28 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 00:20:28 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 00:20:28 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 00:20:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 00:20:28 - Finished Spring Data repository scanning in 28 ms. Found 4 JPA repository interfaces.
+2024-06-26 00:20:29 - Tomcat initialized with port 8080 (http)
+2024-06-26 00:20:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:20:29 - Starting service [Tomcat]
+2024-06-26 00:20:29 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 00:20:29 - Initializing Spring embedded WebApplicationContext
+2024-06-26 00:20:29 - Root WebApplicationContext: initialization completed in 895 ms
+2024-06-26 00:20:29 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 00:20:29 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 00:20:29 - HHH000026: Second-level cache disabled
+2024-06-26 00:20:29 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 00:20:29 - HikariPool-1 - Starting...
+2024-06-26 00:20:29 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7a4414fe
+2024-06-26 00:20:29 - HikariPool-1 - Start completed.
+2024-06-26 00:20:29 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 00:20:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 00:20:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 00:20:30 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 00:20:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 00:20:30 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@25da4d37, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27e2a685, org.springframework.security.web.context.SecurityContextHolderFilter@264f9f90, org.springframework.security.web.header.HeaderWriterFilter@5bb289fa, org.springframework.web.filter.CorsFilter@2afc23d3, org.springframework.security.web.authentication.logout.LogoutFilter@37f81cff, com.springboot.price.security.JwtAuthenticationFilter@33c17923, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@49eb183f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@14cf7166, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68118425, org.springframework.security.web.session.SessionManagementFilter@6e0b2a6c, org.springframework.security.web.access.ExceptionTranslationFilter@69cd2be4, org.springframework.security.web.access.intercept.AuthorizationFilter@2714a5cc]
+2024-06-26 00:20:31 - LiveReload server is running on port 35729
+2024-06-26 00:20:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 00:20:31 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 00:20:31 - Started SpringbootBlogRestApiApplication in 3.102 seconds (process running for 3.623)
+2024-06-26 00:20:31 - SpringbootBlogRestApiApplication has started.
+2024-06-26 00:20:36 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 00:20:36 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 00:20:36 - Completed initialization in 4 ms
+2024-06-26 00:20:37 - Login request received for user: abhishek21
+2024-06-26 00:20:37 - Attempting to authenticate user: abhishek21
+2024-06-26 00:20:37 - User authenticated successfully: abhishek21
+2024-06-26 00:20:37 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNDE0MzcsImV4cCI6MTcxOTk0NjIzN30.QLPXN7v_cWs_NASyooxy0_OcKqnebBpi7U246GnwG_H5lNADv7BZ2ShsfrbHjZ12
+2024-06-26 00:20:37 - Login successful for user: abhishek21
+2024-06-26 00:20:46 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 02:29:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m23s547ms).
+2024-06-26 08:26:00 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5h55m37s33ms).
+2024-06-26 08:39:46 - Login request received for user: abhishek21
+2024-06-26 08:39:46 - Attempting to authenticate user: abhishek21
+2024-06-26 08:39:46 - User authenticated successfully: abhishek21
+2024-06-26 08:39:46 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzEzODYsImV4cCI6MTcxOTk3NjE4Nn0.mfmyXRNu8VZ5ClZmMb7jaKq6XzgoHtVtUpE9Wn7wOymx_PmZ8ezRoBftN1vP97c3
+2024-06-26 08:39:46 - Login successful for user: abhishek21
+2024-06-26 08:39:48 - Login request received for user: abhishek21
+2024-06-26 08:39:48 - Attempting to authenticate user: abhishek21
+2024-06-26 08:39:48 - User authenticated successfully: abhishek21
+2024-06-26 08:39:48 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzEzODgsImV4cCI6MTcxOTk3NjE4OH0.6f1mNgINghod_MtGPrzvTa9tOS-N8F45g02XnuLO8VbqubaNVGcgzfXF_obYdyXK
+2024-06-26 08:39:48 - Login successful for user: abhishek21
+2024-06-26 08:39:49 - Login request received for user: abhishek21
+2024-06-26 08:39:49 - Attempting to authenticate user: abhishek21
+2024-06-26 08:39:49 - User authenticated successfully: abhishek21
+2024-06-26 08:39:49 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzEzODksImV4cCI6MTcxOTk3NjE4OX0.1agKfMcVv1I7avvbIocTDouasGLrxf84WalSMC7LbcUHn9ZdjeH8-3wgqZzn5R3x
+2024-06-26 08:39:49 - Login successful for user: abhishek21
+2024-06-26 08:39:50 - Login request received for user: abhishek21
+2024-06-26 08:39:50 - Attempting to authenticate user: abhishek21
+2024-06-26 08:39:50 - User authenticated successfully: abhishek21
+2024-06-26 08:39:50 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzEzOTAsImV4cCI6MTcxOTk3NjE5MH0.T8edRGAmZUdh4172uzbRWy7z026-4NxAwYLd4KS67MUEcf2cmGSSQFtoI5Hru8V1
+2024-06-26 08:39:50 - Login successful for user: abhishek21
+2024-06-26 08:39:51 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=13m50s799ms).
+2024-06-26 08:39:54 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 08:39:55 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 08:39:57 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 08:39:57 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 08:39:58 - Login request received for user: abhishek21
+2024-06-26 08:39:58 - Attempting to authenticate user: abhishek21
+2024-06-26 08:39:58 - User authenticated successfully: abhishek21
+2024-06-26 08:39:58 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzEzOTgsImV4cCI6MTcxOTk3NjE5OH0.7REqm_l4CzgQQ87x15vjZ41CVwVVX9mlNIOClTjNe2EH22Qt4V80JEzmCoa33EQY
+2024-06-26 08:39:58 - Login successful for user: abhishek21
+2024-06-26 08:40:00 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 08:40:42 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 08:40:42 - HikariPool-1 - Shutdown initiated...
+2024-06-26 08:40:42 - HikariPool-1 - Shutdown completed.
+2024-06-26 08:40:46 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 08:40:46 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 30235 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 08:40:46 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 08:40:46 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 08:40:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 08:40:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 08:40:47 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 08:40:47 - Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2024-06-26 08:40:47 - Tomcat initialized with port 8080 (http)
+2024-06-26 08:40:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 08:40:47 - Starting service [Tomcat]
+2024-06-26 08:40:47 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 08:40:47 - Initializing Spring embedded WebApplicationContext
+2024-06-26 08:40:47 - Root WebApplicationContext: initialization completed in 869 ms
+2024-06-26 08:40:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 08:40:47 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 08:40:47 - HHH000026: Second-level cache disabled
+2024-06-26 08:40:48 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 08:40:48 - HikariPool-1 - Starting...
+2024-06-26 08:40:48 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@24157bf9
+2024-06-26 08:40:48 - HikariPool-1 - Start completed.
+2024-06-26 08:40:48 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 08:40:48 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 08:40:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 08:40:49 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 08:40:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 08:40:49 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@29b4df87, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ed16ca1, org.springframework.security.web.context.SecurityContextHolderFilter@7ab4a66, org.springframework.security.web.header.HeaderWriterFilter@3f70db26, org.springframework.web.filter.CorsFilter@22edca20, org.springframework.security.web.authentication.logout.LogoutFilter@561a0015, com.springboot.price.security.JwtAuthenticationFilter@44e4cbaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b679cdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1c9e94e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@258134fa, org.springframework.security.web.session.SessionManagementFilter@622e0c25, org.springframework.security.web.access.ExceptionTranslationFilter@609d4389, org.springframework.security.web.access.intercept.AuthorizationFilter@3d715464]
+2024-06-26 08:40:49 - LiveReload server is running on port 35729
+2024-06-26 08:40:49 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 08:40:49 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 08:40:49 - Started SpringbootBlogRestApiApplication in 3.359 seconds (process running for 3.922)
+2024-06-26 08:40:49 - SpringbootBlogRestApiApplication has started.
+2024-06-26 08:41:03 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 08:41:03 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 08:41:03 - Completed initialization in 4 ms
+2024-06-26 08:41:03 - Login request received for user: abhishek21
+2024-06-26 08:41:03 - Attempting to authenticate user: abhishek21
+2024-06-26 08:41:03 - User authenticated successfully: abhishek21
+2024-06-26 08:41:03 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzNzE0NjMsImV4cCI6MTcxOTk3NjI2M30.A5JNLmkCcU00wee4860fGk-tB7sWKU7L-54i6YDU_2rUAObq4G_1HA0ORulZG8TR
+2024-06-26 08:41:03 - Login successful for user: abhishek21
+2024-06-26 08:41:12 - Received request to get products for: apple
+2024-06-26 08:41:12 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=apple
+2024-06-26 08:41:13 - Received response from third-party API for product apple: {"data":[{"product_title":"Apple iPhone 13","can_compare":true,"product_lowest_price":48799,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjk5OQ","product_id":"ZToxNjk5OQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY5OTktMjEzLTE.jpg"},{"product_title":"Apple iPhone 15 Plus","can_compare":true,"product_lowest_price":81090,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzAzNA","product_id":"ZToyMzAzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMwMzQtMTU3LTE.jpg"},{"product_title":"Apple iPhone 12","can_compare":true,"product_lowest_price":41499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNQ","product_id":"ZToxNjAzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzUtMjQ1LTE.jpg"},{"product_title":"Apple iPhone 14","can_compare":true,"product_lowest_price":61790,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM0Nw","product_id":"ZToxNjM0Nw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNDctMjUzLTE.jpg"},{"product_title":"Apple iPhone 11","can_compare":true,"product_lowest_price":64900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTY4OA","product_id":"ZToxNTY4OA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTU2ODgtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Plus","can_compare":true,"product_lowest_price":64999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMjM4Ng","product_id":"ZToyMjM4Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjIzODYtODMtMQ.jpg"},{"product_title":"Apple iPhone 15 Pro","can_compare":true,"product_lowest_price":127990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQ5MA","product_id":"ZToyMTQ5MA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0OTAtMTg3LTE.jpg"},{"product_title":"Apple iPhone 14 Pro Max","can_compare":true,"product_lowest_price":127999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxODM3Ng","product_id":"ZToxODM3Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTgzNzYtODUtMQ.jpg"},{"product_title":"Apple iPhone 12 Pro Max","can_compare":true,"product_lowest_price":119900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNw","product_id":"ZToxNjAzNw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzctMjc0LTE.jpg"},{"product_title":"Apple iPhone 16 Ultra","can_compare":true,"product_lowest_price":159990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzEzMw","product_id":"ZToyMzEzMw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMxMzMtNzYtMQ.jpg"},{"product_title":"Apple iPhone 12 Mini","can_compare":true,"product_lowest_price":23000,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjg1MQ","product_id":"ZToxNjg1MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY4NTEtNDEtMQ.jpg"},{"product_title":"Apple iPhone 13 Pro","can_compare":true,"product_lowest_price":99900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNA","product_id":"ZToxNzIzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzQtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Pro","can_compare":true,"product_lowest_price":99999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzk1NQ","product_id":"ZToxNzk1NQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTc5NTUtMTAzLTE.jpg"},{"product_title":"Apple iPhone SE 2022 (iPhone SE 3)","can_compare":true,"product_lowest_price":30730,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQxNQ","product_id":"ZToyMTQxNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0MTUtMTQ0LTE.jpg"},{"product_title":"Apple iPhone 13 Pro Max","can_compare":true,"product_lowest_price":103990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNQ","product_id":"ZToxNzIzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzUtMjcwLTE.jpg"},{"product_title":"Apple iPhone SE 2020 (iPhone SE 2)","can_compare":true,"product_lowest_price":35990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM2MQ","product_id":"ZToxNjM2MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNjEtMTg4LTE.jpg"},{"product_title":"Apple iPhone XS","can_compare":true,"product_lowest_price":89900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTAzMA","product_id":"ZToxNTAzMA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwMzAtMTQzLTE.jpg"},{"product_title":"Apple iPhone XR","can_compare":true,"product_lowest_price":37999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTA0Ng","product_id":"ZToxNTA0Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwNDYtMjkzLTE.jpg"}],"meta":[]}
+2024-06-26 08:41:13 - Successfully retrieved products for: apple
+2024-06-26 08:41:21 - Received request to get favorites for user: abhishek21
+2024-06-26 08:41:21 - Fetching favorites for user: abhishek21
+2024-06-26 08:41:21 - Fetched 8 favorites for user: abhishek21
+2024-06-26 08:41:21 - Successfully retrieved favorites for user: abhishek21
+2024-06-26 08:49:23 - Received request to get favorites for user: abhishek21
+2024-06-26 08:49:23 - Fetching favorites for user: abhishek21
+2024-06-26 08:49:23 - Fetched 8 favorites for user: abhishek21
+2024-06-26 08:49:23 - Successfully retrieved favorites for user: abhishek21
+2024-06-26 08:50:09 - Received request to get favorites for user: abhishek21
+2024-06-26 08:50:09 - Fetching favorites for user: abhishek21
+2024-06-26 08:50:09 - Fetched 8 favorites for user: abhishek21
+2024-06-26 08:50:09 - Successfully retrieved favorites for user: abhishek21
+2024-06-26 08:55:48 - Login request received for user: dealdex@gmail.com
+2024-06-26 08:55:48 - Attempting to authenticate user: dealdex@gmail.com
+2024-06-26 08:55:48 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2024-06-26 08:56:09 - Login request received for user: dealdex@gmail.com
+2024-06-26 08:56:09 - Attempting to authenticate user: dealdex@gmail.com
+2024-06-26 08:56:10 - Resolved [org.springframework.security.authentication.BadCredentialsException: Bad credentials]
+2024-06-26 09:47:02 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=50m14s285ms).
+2024-06-26 10:17:17 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m14s281ms).
+2024-06-26 10:20:06 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m48s953ms).
+2024-06-26 10:22:47 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m41s805ms).
+2024-06-26 10:26:30 - Registration request received for user: kushal99
+2024-06-26 10:26:30 - Attempting to register user with username: kushal99
+2024-06-26 10:26:31 - User registered successfully: kushal99
+2024-06-26 10:26:31 - Registration successful for user: kushal99
+2024-06-26 10:26:44 - Login request received for user: kushal99
+2024-06-26 10:26:44 - Attempting to authenticate user: kushal99
+2024-06-26 10:26:44 - User authenticated successfully: kushal99
+2024-06-26 10:26:44 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzc3ODA0LCJleHAiOjE3MTk5ODI2MDR9.rWqXGktC1XFomW72XXVThr2sG9vLOzrmvWs6p4IbKiyVLH4T_LEp4zsrQkAWU-tK
+2024-06-26 10:26:44 - Login successful for user: kushal99
+2024-06-26 10:26:52 - Received request to get products for: Apple
+2024-06-26 10:26:52 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=Apple
+2024-06-26 10:26:53 - Received response from third-party API for product Apple: {"data":[{"product_title":"Apple iPhone 13","can_compare":true,"product_lowest_price":52090,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjk5OQ","product_id":"ZToxNjk5OQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY5OTktMjEzLTE.jpg"},{"product_title":"Apple iPhone 15 Plus","can_compare":true,"product_lowest_price":82000,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzAzNA","product_id":"ZToyMzAzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMwMzQtMTU3LTE.jpg"},{"product_title":"Apple iPhone 12","can_compare":true,"product_lowest_price":41499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNQ","product_id":"ZToxNjAzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzUtMjQ1LTE.jpg"},{"product_title":"Apple iPhone 14","can_compare":true,"product_lowest_price":62800,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM0Nw","product_id":"ZToxNjM0Nw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNDctMjUzLTE.jpg"},{"product_title":"Apple iPhone 11","can_compare":true,"product_lowest_price":64900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTY4OA","product_id":"ZToxNTY4OA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTU2ODgtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Plus","can_compare":true,"product_lowest_price":64999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMjM4Ng","product_id":"ZToyMjM4Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjIzODYtODMtMQ.jpg"},{"product_title":"Apple iPhone 15 Pro","can_compare":true,"product_lowest_price":127990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQ5MA","product_id":"ZToyMTQ5MA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0OTAtMTg3LTE.jpg"},{"product_title":"Apple iPhone 14 Pro Max","can_compare":true,"product_lowest_price":127999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxODM3Ng","product_id":"ZToxODM3Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTgzNzYtODUtMQ.jpg"},{"product_title":"Apple iPhone 12 Pro Max","can_compare":true,"product_lowest_price":119900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNw","product_id":"ZToxNjAzNw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzctMjc0LTE.jpg"},{"product_title":"Apple iPhone SE 2022 (iPhone SE 3)","can_compare":true,"product_lowest_price":43900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQxNQ","product_id":"ZToyMTQxNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0MTUtMTQ0LTE.jpg"},{"product_title":"Apple iPhone 16 Ultra","can_compare":true,"product_lowest_price":159990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzEzMw","product_id":"ZToyMzEzMw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMxMzMtNzYtMQ.jpg"},{"product_title":"Apple iPhone 14 Pro","can_compare":true,"product_lowest_price":99999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzk1NQ","product_id":"ZToxNzk1NQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTc5NTUtMTAzLTE.jpg"},{"product_title":"Apple iPhone 13 Pro","can_compare":true,"product_lowest_price":99900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNA","product_id":"ZToxNzIzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzQtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 12 Mini","can_compare":true,"product_lowest_price":59900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjg1MQ","product_id":"ZToxNjg1MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY4NTEtMjQzLTE.jpg"},{"product_title":"Apple iPhone SE 2020 (iPhone SE 2)","can_compare":true,"product_lowest_price":39900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM2MQ","product_id":"ZToxNjM2MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNjEtNzAtMQ.jpg"},{"product_title":"Apple iPhone 13 Pro Max","can_compare":true,"product_lowest_price":103990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNQ","product_id":"ZToxNzIzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzUtMjcwLTE.jpg"},{"product_title":"Apple iPhone XS","can_compare":true,"product_lowest_price":89900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTAzMA","product_id":"ZToxNTAzMA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwMzAtMTQzLTE.jpg"},{"product_title":"Apple iPhone XR","can_compare":true,"product_lowest_price":47900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTA0Ng","product_id":"ZToxNTA0Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwNDYtMjY2LTE.jpg"}],"meta":[]}
+2024-06-26 10:26:53 - Successfully retrieved products for: Apple
+2024-06-26 10:42:11 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m23s306ms).
+2024-06-26 10:47:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 10:47:08 - HikariPool-1 - Shutdown initiated...
+2024-06-26 10:47:08 - HikariPool-1 - Shutdown completed.
+2024-06-26 10:48:13 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 10:48:13 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 33303 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 10:48:13 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 10:48:13 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 10:48:13 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 10:48:13 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 10:48:14 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 10:48:14 - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-06-26 10:48:14 - Tomcat initialized with port 8080 (http)
+2024-06-26 10:48:14 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 10:48:14 - Starting service [Tomcat]
+2024-06-26 10:48:14 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 10:48:14 - Initializing Spring embedded WebApplicationContext
+2024-06-26 10:48:14 - Root WebApplicationContext: initialization completed in 1085 ms
+2024-06-26 10:48:14 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 10:48:15 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 10:48:15 - HHH000026: Second-level cache disabled
+2024-06-26 10:48:15 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 10:48:15 - HikariPool-1 - Starting...
+2024-06-26 10:48:15 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2c4926e7
+2024-06-26 10:48:15 - HikariPool-1 - Start completed.
+2024-06-26 10:48:15 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 10:48:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 10:48:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 10:48:16 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 10:48:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 10:48:17 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@31d8228e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@385f62b4, org.springframework.security.web.context.SecurityContextHolderFilter@28f7253d, org.springframework.security.web.header.HeaderWriterFilter@1ea7720e, org.springframework.web.filter.CorsFilter@6ff488c3, org.springframework.security.web.authentication.logout.LogoutFilter@52c104c3, com.springboot.price.security.JwtAuthenticationFilter@57d7ed99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5987aebe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f0ed170, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2112a462, org.springframework.security.web.session.SessionManagementFilter@1b4799f2, org.springframework.security.web.access.ExceptionTranslationFilter@3713a6d7, org.springframework.security.web.access.intercept.AuthorizationFilter@490810d9]
+2024-06-26 10:48:17 - LiveReload server is running on port 35729
+2024-06-26 10:48:17 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 10:48:17 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 10:48:17 - Started SpringbootBlogRestApiApplication in 3.889 seconds (process running for 4.617)
+2024-06-26 10:48:17 - SpringbootBlogRestApiApplication has started.
+2024-06-26 10:50:28 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 10:50:28 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 10:50:28 - Completed initialization in 11 ms
+2024-06-26 10:50:29 - Login request received for user: kushal99
+2024-06-26 10:50:29 - Attempting to authenticate user: kushal99
+2024-06-26 10:50:29 - User authenticated successfully: kushal99
+2024-06-26 10:50:29 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzc5MjI5LCJleHAiOjE3MTk5ODQwMjl9.mi6qmgW14wbl6HVvebv4ceF7YPWHwfNp_TpZkRU2QCVAhdyx6U2piCctXmF_wGn2
+2024-06-26 10:50:29 - Login successful for user: kushal99
+2024-06-26 10:50:31 - Received request to get favorites for user: kushal99
+2024-06-26 10:50:31 - Fetching favorites for user: kushal99
+2024-06-26 10:50:31 - Fetched 0 favorites for user: kushal99
+2024-06-26 10:50:31 - Successfully retrieved favorites for user: kushal99
+2024-06-26 10:55:36 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m21s110ms).
+2024-06-26 10:57:03 - Received request to get products for: apple
+2024-06-26 10:57:03 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=apple
+2024-06-26 10:57:05 - Received response from third-party API for product apple: {"data":[{"product_title":"Apple iPhone 13","can_compare":true,"product_lowest_price":48799,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjk5OQ","product_id":"ZToxNjk5OQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY5OTktMjEzLTE.jpg"},{"product_title":"Apple iPhone 15 Plus","can_compare":true,"product_lowest_price":81090,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzAzNA","product_id":"ZToyMzAzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMwMzQtMTU3LTE.jpg"},{"product_title":"Apple iPhone 12","can_compare":true,"product_lowest_price":41499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNQ","product_id":"ZToxNjAzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzUtMjQ1LTE.jpg"},{"product_title":"Apple iPhone 14","can_compare":true,"product_lowest_price":61790,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM0Nw","product_id":"ZToxNjM0Nw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNDctMjUzLTE.jpg"},{"product_title":"Apple iPhone 11","can_compare":true,"product_lowest_price":64900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTY4OA","product_id":"ZToxNTY4OA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTU2ODgtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Plus","can_compare":true,"product_lowest_price":64999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMjM4Ng","product_id":"ZToyMjM4Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjIzODYtODMtMQ.jpg"},{"product_title":"Apple iPhone 15 Pro","can_compare":true,"product_lowest_price":127990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQ5MA","product_id":"ZToyMTQ5MA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0OTAtMTg3LTE.jpg"},{"product_title":"Apple iPhone 14 Pro Max","can_compare":true,"product_lowest_price":127999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxODM3Ng","product_id":"ZToxODM3Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTgzNzYtODUtMQ.jpg"},{"product_title":"Apple iPhone 12 Pro Max","can_compare":true,"product_lowest_price":119900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNw","product_id":"ZToxNjAzNw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzctMjc0LTE.jpg"},{"product_title":"Apple iPhone 16 Ultra","can_compare":true,"product_lowest_price":159990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzEzMw","product_id":"ZToyMzEzMw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMxMzMtNzYtMQ.jpg"},{"product_title":"Apple iPhone 12 Mini","can_compare":true,"product_lowest_price":23000,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjg1MQ","product_id":"ZToxNjg1MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY4NTEtNDEtMQ.jpg"},{"product_title":"Apple iPhone 13 Pro","can_compare":true,"product_lowest_price":99900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNA","product_id":"ZToxNzIzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzQtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Pro","can_compare":true,"product_lowest_price":99999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzk1NQ","product_id":"ZToxNzk1NQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTc5NTUtMTAzLTE.jpg"},{"product_title":"Apple iPhone SE 2022 (iPhone SE 3)","can_compare":true,"product_lowest_price":30730,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQxNQ","product_id":"ZToyMTQxNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0MTUtMTQ0LTE.jpg"},{"product_title":"Apple iPhone 13 Pro Max","can_compare":true,"product_lowest_price":103990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNQ","product_id":"ZToxNzIzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzUtMjcwLTE.jpg"},{"product_title":"Apple iPhone SE 2020 (iPhone SE 2)","can_compare":true,"product_lowest_price":35990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM2MQ","product_id":"ZToxNjM2MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNjEtMTg4LTE.jpg"},{"product_title":"Apple iPhone XS","can_compare":true,"product_lowest_price":89900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTAzMA","product_id":"ZToxNTAzMA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwMzAtMTQzLTE.jpg"},{"product_title":"Apple iPhone XR","can_compare":true,"product_lowest_price":37999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTA0Ng","product_id":"ZToxNTA0Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwNDYtMjkzLTE.jpg"}],"meta":[]}
+2024-06-26 10:57:05 - Successfully retrieved products for: apple
+2024-06-26 10:57:08 - Received request to add favorite for user: kushal99, product: null
+2024-06-26 10:57:08 - Adding favorite for user: kushal99
+2024-06-26 10:57:08 - Favorite added successfully for user: kushal99
+2024-06-26 10:57:08 - Successfully added favorite for user: kushal99, product: ZToxNjk5OQ
+2024-06-26 10:57:17 - Received request to get products for: TV
+2024-06-26 10:57:17 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=TV
+2024-06-26 10:57:17 - Received response from third-party API for product TV: {"data":[{"product_title":"Samsung UA32T4380AK 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":14990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTc1MjU","product_id":"ZTo1OTc1MjU","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk3NTI1LTQ1LTE.jpg"},{"product_title":"Thomson FA Series 43RT1055 43 inch Full HD Smart LED TV","can_compare":true,"product_lowest_price":16999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTM1Mzk","product_id":"ZTo2MTM1Mzk","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEzNTM5LTY5LTE.jpg"},{"product_title":"LG 43UR7500PSC 43 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":32899,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTI2NDM","product_id":"ZTo2MTI2NDM","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEyNjQzLTExOC0x.jpg"},{"product_title":"Sony BRAVIA KD-65X74L 65 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":92990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTE0Mjc","product_id":"ZTo2MTE0Mjc","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjExNDI3LTI3Ny0x.jpg"},{"product_title":"Xiaomi X Series L50M8-A2IN 50 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":32990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTI4NDc","product_id":"ZTo2MTI4NDc","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEyODQ3LTExNS0x.jpg"},{"product_title":"LG 32LM565BPTA 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":13499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODEyNTk","product_id":"ZTo1ODEyNTk","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTgxMjU5LTI5NS0x.jpg"},{"product_title":"Xiaomi Smart TV 5A 40 inch Full HD Smart LED TV","can_compare":true,"product_lowest_price":19990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTUyMTc","product_id":"ZTo1OTUyMTc","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk1MjE3LTE2NS0x.jpg"},{"product_title":"Thomson FA Series 42RT1044 42 inch Full HD Smart LED TV","can_compare":true,"product_lowest_price":15499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTE1OTQ","product_id":"ZTo2MTE1OTQ","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjExNTk0LTI3OS0x.jpg"},{"product_title":"Thomson FA Series 32RT1022 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":10499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTE1OTI","product_id":"ZTo2MTE1OTI","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjExNTkyLTE0NS0x.jpg"},{"product_title":"Xiaomi Smart TV 5A 43 inch Full HD Smart LED TV","can_compare":true,"product_lowest_price":24999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTUyMTg","product_id":"ZTo1OTUyMTg","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk1MjE4LTIwOC0x.jpg"},{"product_title":"Xiaomi Smart TV 5A 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":10990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTUyMTY","product_id":"ZTo1OTUyMTY","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk1MjE2LTE0Mi0x.jpg"},{"product_title":"Xiaomi Mi TV 4A Pro 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":16499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjA1NzM","product_id":"ZTo1NjA1NzM","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTYwNTczLTE0Ni0x.jpg"},{"product_title":"Xiaomi Mi TV 4A 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":13600,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjA5OTE","product_id":"ZTo1NjA5OTE","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTYwOTkxLTU2LTE.jpg"},{"product_title":"Xiaomi Mi TV 4X 50 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":34999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjAyOTI","product_id":"ZTo1NjAyOTI","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTYwMjkyLTE1Mi0x.jpg"},{"product_title":"Sony BRAVIA KD-43X74K 43 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":37990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTU1NTk","product_id":"ZTo1OTU1NTk","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk1NTU5LTE3NS0x.jpg"},{"product_title":"LG 55UQ7500PSF 55 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":39990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTYyMTk","product_id":"ZTo1OTYyMTk","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk2MjE5LTE2Mi0x.jpg"},{"product_title":"Xiaomi Mi TV 4A Pro 43 inch Full HD Smart LED TV","can_compare":true,"product_lowest_price":21499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjA1OTI","product_id":"ZTo1NjA1OTI","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTYwNTkyLTEzLTE.jpg"},{"product_title":"LG 32LM563BPTC 32 inch HD ready Smart LED TV","can_compare":true,"product_lowest_price":15489,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODEzNDE","product_id":"ZTo1ODEzNDE","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTgxMzQxLTIzMC0x.jpg"}],"meta":[]}
+2024-06-26 10:57:17 - Successfully retrieved products for: TV
+2024-06-26 10:57:19 - Received request to add favorite for user: kushal99, product: null
+2024-06-26 10:57:19 - Adding favorite for user: kushal99
+2024-06-26 10:57:19 - Favorite added successfully for user: kushal99
+2024-06-26 10:57:19 - Successfully added favorite for user: kushal99, product: ZTo1OTc1MjU
+2024-06-26 10:57:25 - Received request to get products for: Fridge
+2024-06-26 10:57:25 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=Fridge
+2024-06-26 10:57:26 - Received response from third-party API for product Fridge: {"data":[{"product_title":"LG GL-D201ASEU 185 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":17590,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA1NzE","product_id":"ZTo2MDA1NzE","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNTcxLTI4NS0x.jpg"},{"product_title":"LG GL-D201AERU 185 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":17590,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk4MDI","product_id":"ZTo1OTk4MDI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5ODAyLTIwOS0x.jpg"},{"product_title":"LG GL-D201ABCZ 190 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":18290,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODMyNzI","product_id":"ZTo1ODMyNzI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTgzMjcyLTI4NS0x.jpg"},{"product_title":"Samsung RR21C2H25CU 189 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":17990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA1MDE","product_id":"ZTo2MDA1MDE","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNTAxLTIxOC0x.jpg"},{"product_title":"LG GL-D199OERY 185 L 4 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":16490,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA1Njg","product_id":"ZTo2MDA1Njg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNTY4LTktMQ.jpg"},{"product_title":"LG GL-D201ABGX 190 L 4 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":21499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTg1OTI","product_id":"ZTo1NTg1OTI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU4NTkyLTk2LTE.jpg"},{"product_title":"LG GL-D201ABPY 190 L 4 Star Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":20107,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODI4MDA","product_id":"ZTo1ODI4MDA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTgyODAwLTg5LTE.jpg"},{"product_title":"LG GL-B201ASCY 190 L 4 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":16290,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1Nzk3ODA","product_id":"ZTo1Nzk3ODA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTc5NzgwLTIzLTE.jpg"},{"product_title":"Samsung RR21T2H2WCU 198 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":15675,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTgxNjI","product_id":"ZTo1NTgxNjI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU4MTYyLTIwNC0x.jpg"},{"product_title":"LG GL-B201ASPY 190 L 5 Star Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":18770,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTg1NjU","product_id":"ZTo1NTg1NjU","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU4NTY1LTE2Ny0x.jpg"},{"product_title":"LG GL-D201ABPX 190 L 4 Star Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":19590,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTg3NDQ","product_id":"ZTo1NTg3NDQ","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU4NzQ0LTE5Ny0x.jpg"},{"product_title":"Samsung RR21C2H25S8 189 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":17290,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA0OTk","product_id":"ZTo2MDA0OTk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNDk5LTIyMS0x.jpg"},{"product_title":"LG GL-D201ASCY 190 L 4 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":48000,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODAxODc","product_id":"ZTo1ODAxODc","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTgwMTg3LTI1MS0x.jpg"},{"product_title":"Samsung RR21C2H25CR 189 L 5 Star Inverter Direct Cool Single Door Refrigerator","can_compare":true,"product_lowest_price":17890,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA1MDA","product_id":"ZTo2MDA1MDA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNTAwLTExMS0x.jpg"},{"product_title":"LG GL-I292RPZX 260 L 3 Star Inverter Frost Free Double Door Refrigerator","can_compare":true,"product_lowest_price":24990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODQ4NDY","product_id":"ZTo1ODQ4NDY","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg0ODQ2LTI4LTE.jpg"},{"product_title":"LG GL-S292RDSX 260 L 3 Star Inverter Direct Cool Double Door Refrigerator","can_compare":true,"product_lowest_price":26990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODQ4NDU","product_id":"ZTo1ODQ4NDU","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg0ODQ1LTEzMC0x.jpg"},{"product_title":"Whirlpool FP 263D PROTTON ROY 240 L 5 Star Frost Free Triple Door Refrigerator","can_compare":true,"product_lowest_price":23990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTkxMTk","product_id":"ZTo1NTkxMTk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU5MTE5LTIxNC0x.jpg"},{"product_title":"Whirlpool FP 283D Protton Roy 260 L Frost Free Triple Door Refrigerator","can_compare":true,"product_lowest_price":25999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NTk3Njg","product_id":"ZTo1NTk3Njg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTU5NzY4LTcyLTE.jpg"}],"meta":[]}
+2024-06-26 10:57:26 - Successfully retrieved products for: Fridge
+2024-06-26 10:57:30 - Received request to add favorite for user: kushal99, product: null
+2024-06-26 10:57:30 - Adding favorite for user: kushal99
+2024-06-26 10:57:30 - Favorite added successfully for user: kushal99
+2024-06-26 10:57:30 - Successfully added favorite for user: kushal99, product: ZTo1ODMyNzI
+2024-06-26 10:57:41 - Received request to get favorites for user: kushal99
+2024-06-26 10:57:41 - Fetching favorites for user: kushal99
+2024-06-26 10:57:41 - Fetched 3 favorites for user: kushal99
+2024-06-26 10:57:41 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:12:00 - Received request to get favorites for user: kushal99
+2024-06-26 11:12:00 - Fetching favorites for user: kushal99
+2024-06-26 11:12:01 - Fetched 3 favorites for user: kushal99
+2024-06-26 11:12:01 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:23:25 - Received request to get favorites for user: kushal99
+2024-06-26 11:23:25 - Fetching favorites for user: kushal99
+2024-06-26 11:23:25 - Fetched 3 favorites for user: kushal99
+2024-06-26 11:23:25 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:23:29 - Received request to get favorites for user: kushal99
+2024-06-26 11:23:29 - Fetching favorites for user: kushal99
+2024-06-26 11:23:29 - Fetched 3 favorites for user: kushal99
+2024-06-26 11:23:29 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:24:43 - Received request to get products for: AC
+2024-06-26 11:24:43 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=AC
+2024-06-26 11:24:44 - Received response from third-party API for product AC: {"data":[{"product_title":"Voltas 183V Vectra Prism 1.5 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":31900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA2Mzc","product_id":"ZTo2MDA2Mzc","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNjM3LTE4OC0x.jpg"},{"product_title":"Hitachi RAW318HFDOF 1.5 Ton 3 Star Window Air Conditioner","can_compare":true,"product_lowest_price":31039,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDAyOTE","product_id":"ZTo2MDAyOTE","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwMjkxLTczLTE.jpg"},{"product_title":"LG RS-Q19MWZE 1.5 Ton 5 Star Split Air Conditioner","can_compare":true,"product_lowest_price":49490,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDAxOTc","product_id":"ZTo2MDAxOTc","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwMTk3LTg2LTE.jpg"},{"product_title":"LG RS-Q14ENZE 1 Ton 5 Star Split Air Conditioner","can_compare":true,"product_lowest_price":46990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDAxOTI","product_id":"ZTo2MDAxOTI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwMTkyLTIzMC0x.jpg"},{"product_title":"Daikin ATKL60UV16 1.8 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":49790,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTg3Mzk","product_id":"ZTo1OTg3Mzk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk4NzM5LTIxMC0x.jpg"},{"product_title":"LG PS-Q13ENZE 1 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":44990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTQwMTQ","product_id":"ZTo1OTQwMTQ","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk0MDE0LTIwMS0x.jpg"},{"product_title":"Hitachi RAW318HEDO 1.5 Ton 3 Star Window Air Conditioner","can_compare":true,"product_lowest_price":29890,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODQ5MjU","product_id":"ZTo1ODQ5MjU","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg0OTI1LTIwNC0x.jpg"},{"product_title":"Hitachi RAW518KUDZ1 1.5 Ton 5 Star Window Air Conditioner","can_compare":true,"product_lowest_price":29999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjQwMjQ","product_id":"ZTo1NjQwMjQ","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTY0MDI0LTEyMy0x.jpg"},{"product_title":"Hitachi RAW312HEDO 1 Ton 3 Star Window Air Conditioner","can_compare":true,"product_lowest_price":27190,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODU2MDE","product_id":"ZTo1ODU2MDE","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg1NjAxLTIyNy0x.jpg"},{"product_title":"Voltas 183V ADS 1.5 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":29729,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODQ3MjY","product_id":"ZTo1ODQ3MjY","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg0NzI2LTE5NS0x.jpg"},{"product_title":"Voltas 153V ADP 1.2 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":26366,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1ODQ3MTk","product_id":"ZTo1ODQ3MTk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTg0NzE5LTUyLTE.jpg"},{"product_title":"Panasonic CS/CU-SU18XKYTA 1.5 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":35990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTkxMjg","product_id":"ZTo1OTkxMjg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5MTI4LTU0LTE.jpg"},{"product_title":"Panasonic CS/CU-NU12XKYWA 1 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":34271,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA3Mjg","product_id":"ZTo2MDA3Mjg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNzI4LTIyMi0x.jpg"},{"product_title":"Panasonic CS/CU-NU18YKY4W 1.5 Ton 4 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":53999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5Nzg","product_id":"ZTo1OTk5Nzg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTc4LTI2Ny0x.jpg"},{"product_title":"Panasonic CS/CU-NU24YKY4W 2 Ton 4 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":54990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5ODA","product_id":"ZTo1OTk5ODA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTgwLTEwMi0x.jpg"},{"product_title":"Hitachi Kaze Plus RAW318KUD 1.5 Ton 3 Star Window Air Conditioner","can_compare":true,"product_lowest_price":28499,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjQyMDU","product_id":"ZTo1NjQyMDU","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTY0MjA1LTEyMi0x.jpg"},{"product_title":"Hitachi RAU423HWDS 2 Ton 4 Star Split Air Conditioner","can_compare":true,"product_lowest_price":37499,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjQwMzA","product_id":"ZTo1NjQwMzA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTY0MDMwLTE3Mi0x.jpg"},{"product_title":"Hitachi RAU312HWDS 1 Ton 3 Star Split Air Conditioner","can_compare":true,"product_lowest_price":33390,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjQwMjk","product_id":"ZTo1NjQwMjk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTY0MDI5LTUwLTE.jpg"}],"meta":[]}
+2024-06-26 11:24:44 - Successfully retrieved products for: AC
+2024-06-26 11:24:47 - Received request to add favorite for user: kushal99, product: null
+2024-06-26 11:24:47 - Adding favorite for user: kushal99
+2024-06-26 11:24:47 - Favorite added successfully for user: kushal99
+2024-06-26 11:24:47 - Successfully added favorite for user: kushal99, product: ZTo2MDA2Mzc
+2024-06-26 11:25:05 - Received request to get favorites for user: kushal99
+2024-06-26 11:25:05 - Fetching favorites for user: kushal99
+2024-06-26 11:25:05 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:25:05 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:26:01 - Received request to get favorites for user: kushal99
+2024-06-26 11:26:01 - Fetching favorites for user: kushal99
+2024-06-26 11:26:01 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:26:01 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:33:18 - Received request to get favorites for user: kushal99
+2024-06-26 11:33:18 - Fetching favorites for user: kushal99
+2024-06-26 11:33:18 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:33:18 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:37:26 - Received request to get favorites for user: kushal99
+2024-06-26 11:37:26 - Fetching favorites for user: kushal99
+2024-06-26 11:37:26 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:37:26 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:38:51 - Received request to get favorites for user: kushal99
+2024-06-26 11:38:51 - Fetching favorites for user: kushal99
+2024-06-26 11:38:51 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:38:51 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:38:53 - Received request to get favorites for user: kushal99
+2024-06-26 11:38:53 - Fetching favorites for user: kushal99
+2024-06-26 11:38:53 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:38:53 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:38:53 - Received request to get favorites for user: kushal99
+2024-06-26 11:38:53 - Fetching favorites for user: kushal99
+2024-06-26 11:38:53 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:38:53 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:38:53 - Received request to get favorites for user: kushal99
+2024-06-26 11:38:53 - Fetching favorites for user: kushal99
+2024-06-26 11:38:53 - Fetched 4 favorites for user: kushal99
+2024-06-26 11:38:53 - Successfully retrieved favorites for user: kushal99
+2024-06-26 11:46:55 - Login request received for user: abhishek21
+2024-06-26 11:46:55 - Attempting to authenticate user: abhishek21
+2024-06-26 11:46:55 - User authenticated successfully: abhishek21
+2024-06-26 11:46:55 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzODI2MTUsImV4cCI6MTcxOTk4NzQxNX0.US6_ZKKG7VnY7601og4pm6lQPX4QHJ1rCqd_DwpNL3HgyDJW0nDqsfSCnwudXSf5
+2024-06-26 11:46:55 - Login successful for user: abhishek21
+2024-06-26 11:46:57 - Received request to get favorites for user: abhishek21
+2024-06-26 11:46:57 - Fetching favorites for user: abhishek21
+2024-06-26 11:46:57 - Fetched 8 favorites for user: abhishek21
+2024-06-26 11:46:57 - Successfully retrieved favorites for user: abhishek21
+2024-06-26 12:04:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:04:32 - HikariPool-1 - Shutdown initiated...
+2024-06-26 12:04:32 - HikariPool-1 - Shutdown completed.
+2024-06-26 12:04:36 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 12:04:36 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 64262 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 12:04:36 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 12:04:36 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 12:04:36 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 12:04:36 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 12:04:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 12:04:37 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-06-26 12:04:37 - Tomcat initialized with port 8080 (http)
+2024-06-26 12:04:37 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:04:37 - Starting service [Tomcat]
+2024-06-26 12:04:37 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 12:04:37 - Initializing Spring embedded WebApplicationContext
+2024-06-26 12:04:37 - Root WebApplicationContext: initialization completed in 879 ms
+2024-06-26 12:04:37 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 12:04:37 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 12:04:37 - HHH000026: Second-level cache disabled
+2024-06-26 12:04:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 12:04:37 - HikariPool-1 - Starting...
+2024-06-26 12:04:37 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@753706af
+2024-06-26 12:04:37 - HikariPool-1 - Start completed.
+2024-06-26 12:04:38 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 12:04:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 12:04:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:04:38 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 12:04:38 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 12:04:39 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2334e142, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@51029d1a, org.springframework.security.web.context.SecurityContextHolderFilter@1eb80bd, org.springframework.security.web.header.HeaderWriterFilter@338bdfee, org.springframework.web.filter.CorsFilter@296c77b9, org.springframework.security.web.authentication.logout.LogoutFilter@26891ed5, com.springboot.price.security.JwtAuthenticationFilter@5ab18d66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a00ff0a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c2b329, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64cb7115, org.springframework.security.web.session.SessionManagementFilter@212ead74, org.springframework.security.web.access.ExceptionTranslationFilter@5092d2a6, org.springframework.security.web.access.intercept.AuthorizationFilter@77a0ac82]
+2024-06-26 12:04:39 - LiveReload server is running on port 35729
+2024-06-26 12:04:39 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:04:39 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 12:04:39 - Started SpringbootBlogRestApiApplication in 2.895 seconds (process running for 3.357)
+2024-06-26 12:04:39 - SpringbootBlogRestApiApplication has started.
+2024-06-26 12:05:34 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 12:05:34 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 12:05:34 - Completed initialization in 4 ms
+2024-06-26 12:05:34 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "abhishek21"]
+2024-06-26 12:13:26 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:13:26 - HikariPool-1 - Shutdown initiated...
+2024-06-26 12:13:26 - HikariPool-1 - Shutdown completed.
+2024-06-26 12:13:29 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 12:13:29 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 64691 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 12:13:29 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 12:13:29 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 12:13:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 12:13:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 12:13:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 12:13:30 - Finished Spring Data repository scanning in 27 ms. Found 4 JPA repository interfaces.
+2024-06-26 12:13:30 - Tomcat initialized with port 8080 (http)
+2024-06-26 12:13:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:13:30 - Starting service [Tomcat]
+2024-06-26 12:13:30 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 12:13:30 - Initializing Spring embedded WebApplicationContext
+2024-06-26 12:13:30 - Root WebApplicationContext: initialization completed in 839 ms
+2024-06-26 12:13:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 12:13:30 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 12:13:30 - HHH000026: Second-level cache disabled
+2024-06-26 12:13:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 12:13:30 - HikariPool-1 - Starting...
+2024-06-26 12:13:31 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@593093be
+2024-06-26 12:13:31 - HikariPool-1 - Start completed.
+2024-06-26 12:13:31 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 12:13:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 12:13:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:13:31 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 12:13:32 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 12:13:32 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7e3928c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4029812, org.springframework.security.web.context.SecurityContextHolderFilter@5d327f9f, org.springframework.security.web.header.HeaderWriterFilter@776584c0, org.springframework.web.filter.CorsFilter@ad9002b, org.springframework.security.web.authentication.logout.LogoutFilter@fd1fe0e, com.springboot.price.security.JwtAuthenticationFilter@35a1343, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2dbe59a5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@52c066b1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cf76235, org.springframework.security.web.session.SessionManagementFilter@51c7fc26, org.springframework.security.web.access.ExceptionTranslationFilter@78082321, org.springframework.security.web.access.intercept.AuthorizationFilter@1622a81a]
+2024-06-26 12:13:32 - LiveReload server is running on port 35729
+2024-06-26 12:13:32 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:13:32 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 12:13:32 - Started SpringbootBlogRestApiApplication in 2.805 seconds (process running for 3.353)
+2024-06-26 12:13:32 - SpringbootBlogRestApiApplication has started.
+2024-06-26 12:14:12 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 12:14:12 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 12:14:12 - Completed initialization in 11 ms
+2024-06-26 12:14:12 - Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; For input string: "abhishek21"]
+2024-06-26 12:36:35 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m34s127ms).
+2024-06-26 12:41:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:41:28 - HikariPool-1 - Shutdown initiated...
+2024-06-26 12:41:28 - HikariPool-1 - Shutdown completed.
+2024-06-26 12:41:32 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 12:41:32 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 66429 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 12:41:32 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 12:41:32 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 12:41:33 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 12:41:33 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 12:41:33 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 12:41:33 - Finished Spring Data repository scanning in 29 ms. Found 4 JPA repository interfaces.
+2024-06-26 12:41:33 - Tomcat initialized with port 8080 (http)
+2024-06-26 12:41:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:41:33 - Starting service [Tomcat]
+2024-06-26 12:41:33 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 12:41:34 - Initializing Spring embedded WebApplicationContext
+2024-06-26 12:41:34 - Root WebApplicationContext: initialization completed in 971 ms
+2024-06-26 12:41:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 12:41:34 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 12:41:34 - HHH000026: Second-level cache disabled
+2024-06-26 12:41:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 12:41:34 - HikariPool-1 - Starting...
+2024-06-26 12:41:34 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1e1f0f01
+2024-06-26 12:41:34 - HikariPool-1 - Start completed.
+2024-06-26 12:41:34 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 12:41:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 12:41:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:41:35 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 12:41:35 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 12:41:35 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@57270247, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@177335dc, org.springframework.security.web.context.SecurityContextHolderFilter@4494ac08, org.springframework.security.web.header.HeaderWriterFilter@2cbcc5f3, org.springframework.web.filter.CorsFilter@6a2fa89, org.springframework.security.web.authentication.logout.LogoutFilter@54242ec4, com.springboot.price.security.JwtAuthenticationFilter@7d10fae4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2732e88f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@777fa50d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58fff221, org.springframework.security.web.session.SessionManagementFilter@821ba56, org.springframework.security.web.access.ExceptionTranslationFilter@38017dc6, org.springframework.security.web.access.intercept.AuthorizationFilter@34de9956]
+2024-06-26 12:41:35 - LiveReload server is running on port 35729
+2024-06-26 12:41:35 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:41:35 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 12:41:35 - Started SpringbootBlogRestApiApplication in 3.161 seconds (process running for 3.769)
+2024-06-26 12:41:35 - SpringbootBlogRestApiApplication has started.
+2024-06-26 12:42:18 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 12:42:18 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 12:42:18 - Completed initialization in 34 ms
+2024-06-26 12:42:18 - Login request received for user: abhishek21
+2024-06-26 12:42:18 - Attempting to authenticate user: abhishek21
+2024-06-26 12:42:18 - User authenticated successfully: abhishek21
+2024-06-26 12:42:18 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzODU5MzgsImV4cCI6MTcxOTk5MDczOH0.qexinPS77O7UoxGGyTsaKUmOEB_jpk66KdNBuhGREVkw90ZDb0nof8KY1BXpaNCX
+2024-06-26 12:42:18 - Login successful for user: abhishek21
+2024-06-26 12:42:24 - Login request received for user: abhishek21
+2024-06-26 12:42:24 - Attempting to authenticate user: abhishek21
+2024-06-26 12:42:24 - User authenticated successfully: abhishek21
+2024-06-26 12:42:24 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJhYmhpc2hla0BnbWFpbC5jb20iLCJpYXQiOjE3MTkzODU5NDQsImV4cCI6MTcxOTk5MDc0NH0.5OUlD_KUv1eHPb3IIH6NMnP453i5EiVqT5aFErmZHMyn3bhvCwv8rqzZ1S2XFhe0
+2024-06-26 12:42:24 - Login successful for user: abhishek21
+2024-06-26 12:42:27 - Login failed for user: abhishek21 - Error: Authentication failed
+2024-06-26 12:42:28 - Login failed for user: abhishek21 - Error: Authentication failed
+2024-06-26 12:42:46 - Login request received for user: kushal99
+2024-06-26 12:42:46 - Attempting to authenticate user: kushal99
+2024-06-26 12:42:46 - User authenticated successfully: kushal99
+2024-06-26 12:42:46 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg1OTY2LCJleHAiOjE3MTk5OTA3NjZ9.hl4t4eTKUgAlMBKc_1mCL4tX2BHRT6ARd8dW_9ytVNrTtcdmS8ZyWNtxOE42bmUu
+2024-06-26 12:42:46 - Login successful for user: kushal99
+2024-06-26 12:42:55 - Login failed for user: kushal99 - Error: Authentication failed
+2024-06-26 12:52:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:52:15 - HikariPool-1 - Shutdown initiated...
+2024-06-26 12:52:15 - HikariPool-1 - Shutdown completed.
+2024-06-26 12:52:19 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 12:52:19 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 66832 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 12:52:19 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 12:52:19 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 12:52:19 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 12:52:19 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 12:52:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 12:52:20 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-06-26 12:52:20 - Tomcat initialized with port 8080 (http)
+2024-06-26 12:52:20 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:52:20 - Starting service [Tomcat]
+2024-06-26 12:52:20 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 12:52:20 - Initializing Spring embedded WebApplicationContext
+2024-06-26 12:52:20 - Root WebApplicationContext: initialization completed in 972 ms
+2024-06-26 12:52:21 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 12:52:21 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 12:52:21 - HHH000026: Second-level cache disabled
+2024-06-26 12:52:21 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 12:52:21 - HikariPool-1 - Starting...
+2024-06-26 12:52:21 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@531466eb
+2024-06-26 12:52:21 - HikariPool-1 - Start completed.
+2024-06-26 12:52:21 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 12:52:21 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 12:52:21 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:52:22 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 12:52:22 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 12:52:22 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6815c025, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7929b192, org.springframework.security.web.context.SecurityContextHolderFilter@64d0200a, org.springframework.security.web.header.HeaderWriterFilter@1f0adf07, org.springframework.web.filter.CorsFilter@23e35e1f, org.springframework.security.web.authentication.logout.LogoutFilter@2cb5d72a, com.springboot.price.security.JwtAuthenticationFilter@397d2eaa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34489d81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2db9348a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@267538e7, org.springframework.security.web.session.SessionManagementFilter@910c5e8, org.springframework.security.web.access.ExceptionTranslationFilter@7c6e9076, org.springframework.security.web.access.intercept.AuthorizationFilter@2626f164]
+2024-06-26 12:52:22 - LiveReload server is running on port 35729
+2024-06-26 12:52:22 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:52:22 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 12:52:22 - Started SpringbootBlogRestApiApplication in 3.081 seconds (process running for 3.463)
+2024-06-26 12:52:22 - SpringbootBlogRestApiApplication has started.
+2024-06-26 12:54:30 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 12:54:30 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 12:54:30 - Completed initialization in 7 ms
+2024-06-26 12:54:30 - Login request received for user: kushal99
+2024-06-26 12:54:30 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:30 - User authenticated successfully: kushal99
+2024-06-26 12:54:30 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjcwLCJleHAiOjE3MTk5OTE0NzB9.Wo6WwUP-YB6PhOEd2bD0FwvKWMbP5YtHNB2UMJYLLMNdPE0SzwyIWc-bjNoDiC_6
+2024-06-26 12:54:30 - Login successful for user: kushal99
+2024-06-26 12:54:31 - Login request received for user: kushal99
+2024-06-26 12:54:31 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:31 - User authenticated successfully: kushal99
+2024-06-26 12:54:31 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjcxLCJleHAiOjE3MTk5OTE0NzF9.rOn7pEn63AmjII9N7OigMVwJZfTodKkU17LaMYzEm0mXBHM6JmcO7OmxyF-Wi0T-
+2024-06-26 12:54:31 - Login successful for user: kushal99
+2024-06-26 12:54:38 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:38 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:49 - Login request received for user: kushal99
+2024-06-26 12:54:49 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:49 - User authenticated successfully: kushal99
+2024-06-26 12:54:49 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njg5LCJleHAiOjE3MTk5OTE0ODl9.XYY_NEeZtf9vLPGXAU0bH_IqQqVrFqgkPOT93ePELtaRyQ4AJQ3n4mExKm0VliV8
+2024-06-26 12:54:49 - Login successful for user: kushal99
+2024-06-26 12:54:51 - Login request received for user: kushal99
+2024-06-26 12:54:51 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:51 - User authenticated successfully: kushal99
+2024-06-26 12:54:51 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjkxLCJleHAiOjE3MTk5OTE0OTF9.Zbk2bkH8YsYmvzSlXbB7WPTSssG4vAeiqm1ujdV3Y8J7eGb-Z4NBcSjQW4z0axSR
+2024-06-26 12:54:51 - Login successful for user: kushal99
+2024-06-26 12:54:51 - Login request received for user: kushal99
+2024-06-26 12:54:51 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:51 - User authenticated successfully: kushal99
+2024-06-26 12:54:51 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjkxLCJleHAiOjE3MTk5OTE0OTF9.Zbk2bkH8YsYmvzSlXbB7WPTSssG4vAeiqm1ujdV3Y8J7eGb-Z4NBcSjQW4z0axSR
+2024-06-26 12:54:51 - Login successful for user: kushal99
+2024-06-26 12:54:52 - Login request received for user: kushal99
+2024-06-26 12:54:52 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:52 - User authenticated successfully: kushal99
+2024-06-26 12:54:52 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjkyLCJleHAiOjE3MTk5OTE0OTJ9.gLXMtEYfN1WCDtmOo8EXXcdJkPzNJjlvOhHJhg7IdBDS53tXnmDVGMA1vLoZdIs5
+2024-06-26 12:54:52 - Login successful for user: kushal99
+2024-06-26 12:54:52 - Login request received for user: kushal99
+2024-06-26 12:54:52 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:53 - User authenticated successfully: kushal99
+2024-06-26 12:54:53 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjkzLCJleHAiOjE3MTk5OTE0OTN9._tMpp6dmSIs_rjUBC4dnW7W6Wh-tHN9xMLtv5Grr8jCZkZx-7FRIAFm22NxeoP_N
+2024-06-26 12:54:53 - Login successful for user: kushal99
+2024-06-26 12:54:53 - Login request received for user: kushal99
+2024-06-26 12:54:53 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:53 - User authenticated successfully: kushal99
+2024-06-26 12:54:53 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2NjkzLCJleHAiOjE3MTk5OTE0OTN9._tMpp6dmSIs_rjUBC4dnW7W6Wh-tHN9xMLtv5Grr8jCZkZx-7FRIAFm22NxeoP_N
+2024-06-26 12:54:53 - Login successful for user: kushal99
+2024-06-26 12:54:56 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:56 - Login request received for user: kushal99
+2024-06-26 12:54:56 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:57 - User authenticated successfully: kushal99
+2024-06-26 12:54:57 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njk3LCJleHAiOjE3MTk5OTE0OTZ9.NNWuOa9EKlOO-nnmrw-nxZ-1nYbVHtgQ55PhVGmIYTaFjPZv59zvctGbyTv7w8YK
+2024-06-26 12:54:57 - Login successful for user: kushal99
+2024-06-26 12:54:58 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:58 - Login request received for user: kushal99
+2024-06-26 12:54:58 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:58 - User authenticated successfully: kushal99
+2024-06-26 12:54:58 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njk4LCJleHAiOjE3MTk5OTE0OTh9.we_nwEkeIAqNlSRPlgx7hnxJYpfWkh6x5FgLZqrndGUpwAJz3YC_muECiPcFnUqv
+2024-06-26 12:54:58 - Login successful for user: kushal99
+2024-06-26 12:54:59 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:59 - Login request received for user: kushal99
+2024-06-26 12:54:59 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:59 - User authenticated successfully: kushal99
+2024-06-26 12:54:59 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njk5LCJleHAiOjE3MTk5OTE0OTl9.knc4n7fBUMQJfO1_nkzaEdv3fRd3fvb35Rj00_aDUMAGDKFv33KpjQ0GedOf7eWC
+2024-06-26 12:54:59 - Login successful for user: kushal99
+2024-06-26 12:54:59 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:59 - Login request received for user: kushal99
+2024-06-26 12:54:59 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:59 - User authenticated successfully: kushal99
+2024-06-26 12:54:59 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njk5LCJleHAiOjE3MTk5OTE0OTl9.knc4n7fBUMQJfO1_nkzaEdv3fRd3fvb35Rj00_aDUMAGDKFv33KpjQ0GedOf7eWC
+2024-06-26 12:54:59 - Login successful for user: kushal99
+2024-06-26 12:54:59 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:54:59 - Login request received for user: kushal99
+2024-06-26 12:54:59 - Attempting to authenticate user: kushal99
+2024-06-26 12:54:59 - User authenticated successfully: kushal99
+2024-06-26 12:54:59 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Njk5LCJleHAiOjE3MTk5OTE0OTl9.knc4n7fBUMQJfO1_nkzaEdv3fRd3fvb35Rj00_aDUMAGDKFv33KpjQ0GedOf7eWC
+2024-06-26 12:54:59 - Login successful for user: kushal99
+2024-06-26 12:55:00 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:00 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:01 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:01 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:01 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:02 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 12:55:47 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:55:47 - HikariPool-1 - Shutdown initiated...
+2024-06-26 12:55:47 - HikariPool-1 - Shutdown completed.
+2024-06-26 12:55:51 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 12:55:51 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 67331 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 12:55:51 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 12:55:51 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 12:55:51 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 12:55:51 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 12:55:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 12:55:51 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-06-26 12:55:52 - Tomcat initialized with port 8080 (http)
+2024-06-26 12:55:52 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:55:52 - Starting service [Tomcat]
+2024-06-26 12:55:52 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 12:55:52 - Initializing Spring embedded WebApplicationContext
+2024-06-26 12:55:52 - Root WebApplicationContext: initialization completed in 824 ms
+2024-06-26 12:55:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 12:55:52 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 12:55:52 - HHH000026: Second-level cache disabled
+2024-06-26 12:55:52 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 12:55:52 - HikariPool-1 - Starting...
+2024-06-26 12:55:52 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@37136227
+2024-06-26 12:55:52 - HikariPool-1 - Start completed.
+2024-06-26 12:55:52 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 12:55:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 12:55:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 12:55:53 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 12:55:53 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 12:55:53 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7bc545a6, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@52a88b5c, org.springframework.security.web.context.SecurityContextHolderFilter@67aa8dd9, org.springframework.security.web.header.HeaderWriterFilter@65ca4ae6, org.springframework.web.filter.CorsFilter@1b935001, org.springframework.security.web.authentication.logout.LogoutFilter@465816dd, com.springboot.price.security.JwtAuthenticationFilter@3d16a6d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@786aaebd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73cddb6b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@75c013, org.springframework.security.web.session.SessionManagementFilter@293fa757, org.springframework.security.web.access.ExceptionTranslationFilter@3ba406f3, org.springframework.security.web.access.intercept.AuthorizationFilter@4cacbd07]
+2024-06-26 12:55:53 - LiveReload server is running on port 35729
+2024-06-26 12:55:53 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 12:55:53 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 12:55:53 - Started SpringbootBlogRestApiApplication in 2.866 seconds (process running for 3.303)
+2024-06-26 12:55:53 - SpringbootBlogRestApiApplication has started.
+2024-06-26 12:56:25 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 12:56:25 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 12:56:25 - Completed initialization in 4 ms
+2024-06-26 12:56:25 - Login request received for user: kushal99
+2024-06-26 12:56:25 - Attempting to authenticate user: kushal99
+2024-06-26 12:56:25 - User authenticated successfully: kushal99
+2024-06-26 12:56:25 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzg2Nzg1LCJleHAiOjE3MTk5OTE1ODV9._fWsAKjcorUNzwKFZQ_dDAHDaFh7rJZc6KLfFj6nQO7OY7gEibLMRVFH0HiELr9m
+2024-06-26 12:56:25 - Login successful for user: kushal99
+2024-06-26 12:56:28 - Received request to get favorites for user: kushal99
+2024-06-26 12:56:28 - Fetching favorites for user: kushal99
+2024-06-26 12:56:28 - Fetched 4 favorites for user: kushal99
+2024-06-26 12:56:28 - Successfully retrieved favorites for user: kushal99
+2024-06-26 12:57:06 - Received request to get products for: cup
+2024-06-26 12:57:06 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=cup
+2024-06-26 12:57:08 - Received response from third-party API for product cup: {"data":[{"product_title":"XOLO Cube 5.0 2GB","can_compare":true,"product_lowest_price":2940,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMDUyMg","product_id":"ZToyMDUyMg","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjA1MjItMy0x.jpg"},{"product_title":"Panasonic CS/CU-SU18XKYTA 1.5 Ton 3 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":35990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTkxMjg","product_id":"ZTo1OTkxMjg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5MTI4LTU0LTE.jpg"},{"product_title":"Panasonic CS/CU-NU12XKYWA 1 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":34271,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MDA3Mjg","product_id":"ZTo2MDA3Mjg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjAwNzI4LTIyMi0x.jpg"},{"product_title":"Panasonic CS/CU-NU18YKY4W 1.5 Ton 4 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":53999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5Nzg","product_id":"ZTo1OTk5Nzg","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTc4LTI2Ny0x.jpg"},{"product_title":"Panasonic CS/CU-NU24YKY4W 2 Ton 4 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":54990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5ODA","product_id":"ZTo1OTk5ODA","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTgwLTEwMi0x.jpg"},{"product_title":"Philips HD7431 4 Cups Coffee Maker","can_compare":true,"product_lowest_price":3399,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyODQxOTI","product_id":"ZToyODQxOTI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjg0MTkyLTc0LTE.jpg"},{"product_title":"Prestige Drip PCMD 3.0 6 Cups Coffee Maker","can_compare":true,"product_lowest_price":1180,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1MDgzNTU","product_id":"ZTo1MDgzNTU","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTA4MzU1LTM3LTE.jpg"},{"product_title":"Panasonic CU-NU18WKYW 1.5 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":42990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1NjIxNjI","product_id":"ZTo1NjIxNjI","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTYyMTYyLTIyNy0x.jpg"},{"product_title":"Samsung Crystal Vision UA43CUE70AKL 43 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":31490,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTI5MDI","product_id":"ZTo2MTI5MDI","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEyOTAyLTItMQ.jpg"},{"product_title":"Panasonic CS/CU-NU18XKYWA 1.5 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":51250,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTkxNzk","product_id":"ZTo1OTkxNzk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5MTc5LTEyNS0x.jpg"},{"product_title":"Panasonic CS/CU-NU18YKY5W 1.5 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":44490,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5Nzk","product_id":"ZTo1OTk5Nzk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTc5LTQ5LTE.jpg"},{"product_title":"Samsung Crystal Vision UA55CUE70AKL 55 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":46990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTI5MDM","product_id":"ZTo2MTI5MDM","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEyOTAzLTEyNi0x.jpg"},{"product_title":"Samsung Crystal Vision UA65CUE70AKL 65 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":67990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTI5MDQ","product_id":"ZTo2MTI5MDQ","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjEyOTA0LTQwLTE.jpg"},{"product_title":"Panasonic CS/CU-NU12YKY5W 1 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":44500,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5Nzc","product_id":"ZTo1OTk5Nzc","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTc3LTIzOC0x.jpg"},{"product_title":"Nespresso Magimix Inissia 11350 8 Cups Coffee Maker","can_compare":true,"product_lowest_price":20190,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyNDE2OTk","product_id":"ZToyNDE2OTk","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjQxNjk5LTY5LTE.jpg"},{"product_title":"Panasonic CS/CU-NU12YKY4W 1 Ton 4 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":34990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk5NzY","product_id":"ZTo1OTk5NzY","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5OTc2LTEwMS0x.jpg"},{"product_title":"Panasonic CS/CU-NU24XKYWA 2 Ton 5 Star Inverter Split Air Conditioner","can_compare":true,"product_lowest_price":62304,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo1OTk1ODc","product_id":"ZTo1OTk1ODc","product_category":"appliance","product_sub_category":"appliance","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNTk5NTg3LTI2LTE.jpg"},{"product_title":"Samsung UA50CUE60AK 50 inch UHD Smart LED TV","can_compare":true,"product_lowest_price":42990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZTo2MTEwOTk","product_id":"ZTo2MTEwOTk","product_category":"electronics","product_sub_category":"electronics","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvNjExMDk5LTE1LTE.jpg"}],"meta":[]}
+2024-06-26 12:57:08 - Successfully retrieved products for: cup
+2024-06-26 12:57:15 - Received request to add favorite for user: kushal99, product: null
+2024-06-26 12:57:15 - Adding favorite for user: kushal99
+2024-06-26 12:57:15 - Favorite added successfully for user: kushal99
+2024-06-26 12:57:15 - Successfully added favorite for user: kushal99, product: ZTo1OTkxMjg
+2024-06-26 13:51:32 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=25m9s880ms).
+2024-06-26 15:11:42 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m4s472ms).
+2024-06-26 15:26:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 15:26:39 - HikariPool-1 - Shutdown initiated...
+2024-06-26 15:26:39 - HikariPool-1 - Shutdown completed.
+2024-06-26 15:26:43 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 15:26:43 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 75011 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 15:26:43 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 15:26:43 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 15:26:43 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 15:26:43 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 15:26:44 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 15:26:44 - Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2024-06-26 15:26:44 - Tomcat initialized with port 8080 (http)
+2024-06-26 15:26:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 15:26:44 - Starting service [Tomcat]
+2024-06-26 15:26:44 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 15:26:44 - Initializing Spring embedded WebApplicationContext
+2024-06-26 15:26:44 - Root WebApplicationContext: initialization completed in 890 ms
+2024-06-26 15:26:44 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 15:26:44 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 15:26:45 - HHH000026: Second-level cache disabled
+2024-06-26 15:26:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 15:26:45 - HikariPool-1 - Starting...
+2024-06-26 15:26:45 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6216f365
+2024-06-26 15:26:45 - HikariPool-1 - Start completed.
+2024-06-26 15:26:45 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 15:26:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 15:26:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 15:26:46 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 15:26:46 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 15:26:46 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2d04f553, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@56aedd3b, org.springframework.security.web.context.SecurityContextHolderFilter@1fac2961, org.springframework.security.web.header.HeaderWriterFilter@7ef5587d, org.springframework.web.filter.CorsFilter@31f47902, org.springframework.security.web.authentication.logout.LogoutFilter@5a3b41cb, com.springboot.price.security.JwtAuthenticationFilter@25ee34d0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@69622745, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d6dc671, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@16eeadf7, org.springframework.security.web.session.SessionManagementFilter@4682f2e6, org.springframework.security.web.access.ExceptionTranslationFilter@3e13e42f, org.springframework.security.web.access.intercept.AuthorizationFilter@79305c34]
+2024-06-26 15:26:46 - LiveReload server is running on port 35729
+2024-06-26 15:26:46 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 15:26:47 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 15:26:47 - Started SpringbootBlogRestApiApplication in 3.414 seconds (process running for 3.947)
+2024-06-26 15:26:47 - SpringbootBlogRestApiApplication has started.
+2024-06-26 15:28:52 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 15:28:52 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 15:28:52 - Completed initialization in 7 ms
+2024-06-26 15:28:52 - Login request received for user: kushal99
+2024-06-26 15:28:52 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:53 - User authenticated successfully: kushal99
+2024-06-26 15:28:53 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTMzLCJleHAiOjE3MjAwMDA3MzN9.vF_iy5UXLIN6ob-KCAhmAfUY-rBqKc3kRxX7KgXTZkF7DfC_3Gx_gzbmrV8Nr9eb
+2024-06-26 15:28:53 - Login successful for user: kushal99
+2024-06-26 15:28:56 - Login request received for user: kushal99
+2024-06-26 15:28:56 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:56 - User authenticated successfully: kushal99
+2024-06-26 15:28:56 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTM2LCJleHAiOjE3MjAwMDA3MzZ9.-8_kmKVML0H6ziGDHT3SN7TldOp5-1-AUVPkpjRksnWjwT73eActeoBN22QGFJko
+2024-06-26 15:28:56 - Login successful for user: kushal99
+2024-06-26 15:28:56 - Login request received for user: kushal99
+2024-06-26 15:28:56 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:56 - User authenticated successfully: kushal99
+2024-06-26 15:28:56 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTM2LCJleHAiOjE3MjAwMDA3MzZ9.-8_kmKVML0H6ziGDHT3SN7TldOp5-1-AUVPkpjRksnWjwT73eActeoBN22QGFJko
+2024-06-26 15:28:56 - Login successful for user: kushal99
+2024-06-26 15:28:56 - Login request received for user: kushal99
+2024-06-26 15:28:56 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:56 - User authenticated successfully: kushal99
+2024-06-26 15:28:56 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTM2LCJleHAiOjE3MjAwMDA3MzZ9.-8_kmKVML0H6ziGDHT3SN7TldOp5-1-AUVPkpjRksnWjwT73eActeoBN22QGFJko
+2024-06-26 15:28:56 - Login successful for user: kushal99
+2024-06-26 15:28:57 - Login request received for user: kushal99
+2024-06-26 15:28:57 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:57 - User authenticated successfully: kushal99
+2024-06-26 15:28:57 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTM3LCJleHAiOjE3MjAwMDA3Mzd9.eJVdbv4jaD3ClfX4umBQiWbKVkgFwELXu-pwpz5WhCXWrV6WBBod0nkOg8r8-S2u
+2024-06-26 15:28:57 - Login successful for user: kushal99
+2024-06-26 15:28:57 - Login request received for user: kushal99
+2024-06-26 15:28:57 - Attempting to authenticate user: kushal99
+2024-06-26 15:28:57 - User authenticated successfully: kushal99
+2024-06-26 15:28:57 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTM3LCJleHAiOjE3MjAwMDA3Mzd9.eJVdbv4jaD3ClfX4umBQiWbKVkgFwELXu-pwpz5WhCXWrV6WBBod0nkOg8r8-S2u
+2024-06-26 15:28:57 - Login successful for user: kushal99
+2024-06-26 15:29:00 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:00 - Login request received for user: kushal99
+2024-06-26 15:29:00 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:00 - User authenticated successfully: kushal99
+2024-06-26 15:29:00 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQwLCJleHAiOjE3MjAwMDA3NDB9.lMylq2HWKziEG89ndV5CmnDCLy8WQxsqT2BcjZ_rJYvivSqqVKpJd7KDy5mEppXf
+2024-06-26 15:29:00 - Login successful for user: kushal99
+2024-06-26 15:29:03 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:03 - Login request received for user: kushal99
+2024-06-26 15:29:03 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:03 - User authenticated successfully: kushal99
+2024-06-26 15:29:03 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQzLCJleHAiOjE3MjAwMDA3NDN9.DfHLRLgTKmyM6kfAqUm1iH8NmxRtYcMQsprc7f0EgwxvX-bxVpwSjLjin7lIJUI2
+2024-06-26 15:29:03 - Login successful for user: kushal99
+2024-06-26 15:29:03 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:03 - Login request received for user: kushal99
+2024-06-26 15:29:03 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:03 - User authenticated successfully: kushal99
+2024-06-26 15:29:03 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQzLCJleHAiOjE3MjAwMDA3NDN9.DfHLRLgTKmyM6kfAqUm1iH8NmxRtYcMQsprc7f0EgwxvX-bxVpwSjLjin7lIJUI2
+2024-06-26 15:29:03 - Login successful for user: kushal99
+2024-06-26 15:29:03 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:03 - Login request received for user: kushal99
+2024-06-26 15:29:03 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:03 - User authenticated successfully: kushal99
+2024-06-26 15:29:03 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQzLCJleHAiOjE3MjAwMDA3NDN9.DfHLRLgTKmyM6kfAqUm1iH8NmxRtYcMQsprc7f0EgwxvX-bxVpwSjLjin7lIJUI2
+2024-06-26 15:29:03 - Login successful for user: kushal99
+2024-06-26 15:29:04 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:04 - Login request received for user: kushal99
+2024-06-26 15:29:04 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:04 - User authenticated successfully: kushal99
+2024-06-26 15:29:04 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQ0LCJleHAiOjE3MjAwMDA3NDR9.xtOFgk-K-3189IKS1BEabuVfJxU8rspWmYWZ_6iwLjkLUBG6Z_Di8AdResPRASTa
+2024-06-26 15:29:04 - Login successful for user: kushal99
+2024-06-26 15:29:04 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:04 - Login request received for user: kushal99
+2024-06-26 15:29:04 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:04 - User authenticated successfully: kushal99
+2024-06-26 15:29:04 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQ0LCJleHAiOjE3MjAwMDA3NDR9.xtOFgk-K-3189IKS1BEabuVfJxU8rspWmYWZ_6iwLjkLUBG6Z_Di8AdResPRASTa
+2024-06-26 15:29:04 - Login successful for user: kushal99
+2024-06-26 15:29:04 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:04 - Login request received for user: kushal99
+2024-06-26 15:29:04 - Attempting to authenticate user: kushal99
+2024-06-26 15:29:04 - User authenticated successfully: kushal99
+2024-06-26 15:29:04 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk1OTQ0LCJleHAiOjE3MjAwMDA3NDR9.xtOFgk-K-3189IKS1BEabuVfJxU8rspWmYWZ_6iwLjkLUBG6Z_Di8AdResPRASTa
+2024-06-26 15:29:04 - Login successful for user: kushal99
+2024-06-26 15:29:05 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:05 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:05 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:06 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:06 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:06 - Resolved [org.springframework.mail.MailAuthenticationException: Authentication failed]
+2024-06-26 15:29:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 15:29:31 - HikariPool-1 - Shutdown initiated...
+2024-06-26 15:29:31 - HikariPool-1 - Shutdown completed.
+2024-06-26 15:29:34 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 15:29:34 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 75139 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 15:29:34 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 15:29:34 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 15:29:34 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 15:29:34 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 15:29:35 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 15:29:35 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-06-26 15:29:35 - Tomcat initialized with port 8080 (http)
+2024-06-26 15:29:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 15:29:35 - Starting service [Tomcat]
+2024-06-26 15:29:35 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 15:29:35 - Initializing Spring embedded WebApplicationContext
+2024-06-26 15:29:35 - Root WebApplicationContext: initialization completed in 844 ms
+2024-06-26 15:29:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 15:29:35 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 15:29:35 - HHH000026: Second-level cache disabled
+2024-06-26 15:29:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 15:29:36 - HikariPool-1 - Starting...
+2024-06-26 15:29:36 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@5d48cf47
+2024-06-26 15:29:36 - HikariPool-1 - Start completed.
+2024-06-26 15:29:36 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 15:29:36 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 15:29:36 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 15:29:36 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 15:29:37 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 15:29:37 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3c596a6e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73bf5585, org.springframework.security.web.context.SecurityContextHolderFilter@313358c7, org.springframework.security.web.header.HeaderWriterFilter@5fea0465, org.springframework.web.filter.CorsFilter@483c781d, org.springframework.security.web.authentication.logout.LogoutFilter@5e448052, com.springboot.price.security.JwtAuthenticationFilter@23da9b74, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c340d6a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@11f1c4b6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4801c1cf, org.springframework.security.web.session.SessionManagementFilter@37500997, org.springframework.security.web.access.ExceptionTranslationFilter@337d50dc, org.springframework.security.web.access.intercept.AuthorizationFilter@5be29971]
+2024-06-26 15:29:37 - LiveReload server is running on port 35729
+2024-06-26 15:29:37 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 15:29:37 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 15:29:37 - Started SpringbootBlogRestApiApplication in 2.921 seconds (process running for 3.405)
+2024-06-26 15:29:37 - SpringbootBlogRestApiApplication has started.
+2024-06-26 15:38:56 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-26 15:38:56 - Initializing Servlet 'dispatcherServlet'
+2024-06-26 15:38:56 - Completed initialization in 31 ms
+2024-06-26 15:38:56 - Login request received for user: kushal99
+2024-06-26 15:38:56 - Attempting to authenticate user: kushal99
+2024-06-26 15:38:57 - User authenticated successfully: kushal99
+2024-06-26 15:38:57 - Generated JWT token for user: eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJrdXNoYWxqYW1iaHVsa2FyODJAZ21haWwuY29tIiwiaWF0IjoxNzE5Mzk2NTM3LCJleHAiOjE3MjAwMDEzMzd9.8QhuUDDrC-q7922h3gjxM-_ml1HmPUfPSnig0kvIXAAu0sybvU9ZoDqNiyeY-zkL
+2024-06-26 15:38:57 - Login successful for user: kushal99
+2024-06-26 15:40:37 - Received request to get favorites for user: kushal99
+2024-06-26 15:40:37 - Fetching favorites for user: kushal99
+2024-06-26 15:40:37 - Fetched 5 favorites for user: kushal99
+2024-06-26 15:40:37 - Successfully retrieved favorites for user: kushal99
+2024-06-26 15:42:33 - Received request to get products for: apple
+2024-06-26 15:42:33 - Calling third-party API with URL: https://price-api.datayuge.com/api/v1/compare/search?api_key=AuFnY4Eqaw1KQALiiK3C08ZNun74sZ7hZAx&product=apple
+2024-06-26 15:42:34 - Received response from third-party API for product apple: {"data":[{"product_title":"Apple iPhone 13","can_compare":true,"product_lowest_price":48799,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjk5OQ","product_id":"ZToxNjk5OQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY5OTktMjEzLTE.jpg"},{"product_title":"Apple iPhone 15 Plus","can_compare":true,"product_lowest_price":81090,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzAzNA","product_id":"ZToyMzAzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMwMzQtMTU3LTE.jpg"},{"product_title":"Apple iPhone 12","can_compare":true,"product_lowest_price":41499,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNQ","product_id":"ZToxNjAzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzUtMjQ1LTE.jpg"},{"product_title":"Apple iPhone 14","can_compare":true,"product_lowest_price":61790,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM0Nw","product_id":"ZToxNjM0Nw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNDctMjUzLTE.jpg"},{"product_title":"Apple iPhone 11","can_compare":true,"product_lowest_price":64900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTY4OA","product_id":"ZToxNTY4OA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTU2ODgtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Plus","can_compare":true,"product_lowest_price":64999,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMjM4Ng","product_id":"ZToyMjM4Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjIzODYtODMtMQ.jpg"},{"product_title":"Apple iPhone 15 Pro","can_compare":true,"product_lowest_price":127990,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQ5MA","product_id":"ZToyMTQ5MA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0OTAtMTg3LTE.jpg"},{"product_title":"Apple iPhone 14 Pro Max","can_compare":true,"product_lowest_price":127999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxODM3Ng","product_id":"ZToxODM3Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTgzNzYtODUtMQ.jpg"},{"product_title":"Apple iPhone 12 Pro Max","can_compare":true,"product_lowest_price":119900,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjAzNw","product_id":"ZToxNjAzNw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYwMzctMjc0LTE.jpg"},{"product_title":"Apple iPhone 16 Ultra","can_compare":true,"product_lowest_price":159990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMzEzMw","product_id":"ZToyMzEzMw","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjMxMzMtNzYtMQ.jpg"},{"product_title":"Apple iPhone 12 Mini","can_compare":true,"product_lowest_price":23000,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjg1MQ","product_id":"ZToxNjg1MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTY4NTEtNDEtMQ.jpg"},{"product_title":"Apple iPhone 13 Pro","can_compare":true,"product_lowest_price":99900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNA","product_id":"ZToxNzIzNA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzQtMTQ5LTE.jpg"},{"product_title":"Apple iPhone 14 Pro","can_compare":true,"product_lowest_price":99999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzk1NQ","product_id":"ZToxNzk1NQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTc5NTUtMTAzLTE.jpg"},{"product_title":"Apple iPhone SE 2022 (iPhone SE 3)","can_compare":true,"product_lowest_price":30730,"is_available":true,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToyMTQxNQ","product_id":"ZToyMTQxNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMjE0MTUtMTQ0LTE.jpg"},{"product_title":"Apple iPhone 13 Pro Max","can_compare":true,"product_lowest_price":103990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNzIzNQ","product_id":"ZToxNzIzNQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTcyMzUtMjcwLTE.jpg"},{"product_title":"Apple iPhone SE 2020 (iPhone SE 2)","can_compare":true,"product_lowest_price":35990,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNjM2MQ","product_id":"ZToxNjM2MQ","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTYzNjEtMTg4LTE.jpg"},{"product_title":"Apple iPhone XS","can_compare":true,"product_lowest_price":89900,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTAzMA","product_id":"ZToxNTAzMA","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwMzAtMTQzLTE.jpg"},{"product_title":"Apple iPhone XR","can_compare":true,"product_lowest_price":37999,"is_available":false,"product_link":"https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxNTA0Ng","product_id":"ZToxNTA0Ng","product_category":"mobile","product_sub_category":"mobile","product_image":"https://images-api.datayuge.in/image/dHI6dy0zNzAsaC0zMzAsYy1hdF9tYXgvMTUwNDYtMjkzLTE.jpg"}],"meta":[]}
+2024-06-26 15:42:34 - Successfully retrieved products for: apple
+2024-06-26 16:14:20 - Received request to get favorites for user: kushal99
+2024-06-26 16:14:20 - Fetching favorites for user: kushal99
+2024-06-26 16:14:20 - Fetched 5 favorites for user: kushal99
+2024-06-26 16:14:20 - Successfully retrieved favorites for user: kushal99
+2024-06-26 17:06:03 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m56s767ms).
+2024-06-26 17:12:53 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m49s695ms).
+2024-06-26 17:29:44 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m51s391ms).
+2024-06-26 18:05:15 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 18:05:15 - HikariPool-1 - Shutdown initiated...
+2024-06-26 18:05:15 - HikariPool-1 - Shutdown completed.
+2024-06-26 19:10:29 - HV000001: Hibernate Validator 8.0.1.Final
+2024-06-26 19:10:29 - Starting SpringbootBlogRestApiApplication using Java 17.0.9 with PID 88013 (/Users/kushaljambhulkar/Desktop/PriceCompare/price-app/target/classes started by kushaljambhulkar in /Users/kushaljambhulkar/Desktop/PriceCompare/price-app)
+2024-06-26 19:10:29 - Running with Spring Boot v3.2.1, Spring v6.1.2
+2024-06-26 19:10:29 - No active profile set, falling back to 1 default profile: "default"
+2024-06-26 19:10:29 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-06-26 19:10:29 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-06-26 19:10:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-26 19:10:29 - Finished Spring Data repository scanning in 26 ms. Found 4 JPA repository interfaces.
+2024-06-26 19:10:30 - Tomcat initialized with port 8080 (http)
+2024-06-26 19:10:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-26 19:10:30 - Starting service [Tomcat]
+2024-06-26 19:10:30 - Starting Servlet engine: [Apache Tomcat/10.1.17]
+2024-06-26 19:10:30 - Initializing Spring embedded WebApplicationContext
+2024-06-26 19:10:30 - Root WebApplicationContext: initialization completed in 894 ms
+2024-06-26 19:10:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-26 19:10:30 - HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-06-26 19:10:30 - HHH000026: Second-level cache disabled
+2024-06-26 19:10:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-26 19:10:30 - HikariPool-1 - Starting...
+2024-06-26 19:10:30 - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@34609de4
+2024-06-26 19:10:30 - HikariPool-1 - Start completed.
+2024-06-26 19:10:30 - HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-06-26 19:10:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-26 19:10:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-26 19:10:31 - Filter 'jwtAuthenticationFilter' configured for use
+2024-06-26 19:10:31 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-26 19:10:31 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@50225382, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67f8f765, org.springframework.security.web.context.SecurityContextHolderFilter@3be0d17e, org.springframework.security.web.header.HeaderWriterFilter@2fdf7d76, org.springframework.web.filter.CorsFilter@260cafcf, org.springframework.security.web.authentication.logout.LogoutFilter@4b9442bd, com.springboot.price.security.JwtAuthenticationFilter@25abf9e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44d21c1f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3af0f83b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a4ffff7, org.springframework.security.web.session.SessionManagementFilter@5af3b450, org.springframework.security.web.access.ExceptionTranslationFilter@3503adba, org.springframework.security.web.access.intercept.AuthorizationFilter@15f45330]
+2024-06-26 19:10:31 - LiveReload server is running on port 35729
+2024-06-26 19:10:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-26 19:10:31 - Tomcat started on port 8080 (http) with context path ''
+2024-06-26 19:10:31 - Started SpringbootBlogRestApiApplication in 3.024 seconds (process running for 3.702)
+2024-06-26 19:10:31 - SpringbootBlogRestApiApplication has started.
+2024-06-26 21:12:55 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h1m24s351ms).
+2024-06-26 21:59:59 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m4s488ms).
+2024-06-26 22:17:46 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m46s951ms).
